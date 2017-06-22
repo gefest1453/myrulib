@@ -1,0 +1,21 @@
+/* XPM */
+static const char * del_xpm[] = {
+"15 15 3 1",
+"X c Black",
+"# c Red",
+"  c None",
+"               ",
+"               ",
+"               ",
+"               ",
+"               ",
+" XXXXXXXXXXXXX ",
+" X           X ",
+" X           X ",
+" X           X ",
+" XXXXXXXXXXXXX ",
+"               ",
+"               ",
+"               ",
+"               ",
+"               "};

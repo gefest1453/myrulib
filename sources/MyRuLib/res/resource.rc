@@ -1,0 +1,53 @@
+#include <wx/cpp.h>
+#include "config.h"
+
+aaaa ICON "home.ico"
+
+#include "wx/msw/wx.rc"
+
+#include "config.h"
+
+#ifdef FB_INCLUDE_LOCALE
+ru_RU RC_DATA "ru.mo"
+be_BY RC_DATA "be.mo"
+uk_UA RC_DATA "uk.mo"
+cs_CZ RC_DATA "cs.mo"
+sv_SE RC_DATA "sv.mo"
+#endif // FB_INCLUDE_READER
+
+#ifdef FB_INCLUDE_READER
+fb2_css RC_DATA "../../../3rdparty/crengine/css/fb2.css"
+#endif // FB_INCLUDE_READER
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION BUILD_VERSION
+PRODUCTVERSION BUILD_VERSION
+FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+FILEFLAGS 0x1L
+#else
+FILEFLAGS 0x0L
+#endif
+FILEOS 0x4L
+FILETYPE 0x2L
+FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "\0"
+      VALUE "FileDescription", PACKAGE_NAME " Application\0"
+      VALUE "FileVersion", PACKAGE_VERSION ".0\0"
+      VALUE "InternalName", PACKAGE_TARNAME "\0"
+      VALUE "LegalCopyright", "Copyright © Kandrashin Denis, 2010\0"
+      VALUE "OriginalFilename", PACKAGE_TARNAME ".exe\0"
+      VALUE "ProductName", "MyRuLib E-Book Library Manager\0"
+      VALUE "ProductVersion", PACKAGE_VERSION ".0\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 0x04B0
+  END
+END

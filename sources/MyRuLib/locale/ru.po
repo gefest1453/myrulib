@@ -1,0 +1,2213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MyRuLib-0.24.10\n"
+"Report-Msgid-Bugs-To: Kandrashin Denis <mail@lintest.ru>\n"
+"POT-Creation-Date: 2010-05-27 00:07+0300\n"
+"PO-Revision-Date: 2011-07-06 21:45+0400\n"
+"Last-Translator: Kandrashin Denis <mail@lintest.ru>\n"
+"Language-Team: Lintest <mail@lintest.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+msgid "book"
+msgid_plural "books"
+msgstr[0] "книга"
+msgstr[1] "книги"
+msgstr[2] "книг"
+
+#: controls/FbLogModel.cpp:55 FbBookMenu.cpp:49 FbMainMenu.cpp:27
+#: FbPreviewWindow.cpp:67
+msgid "Copy"
+msgstr "Копировать"
+
+#: controls/FbLogModel.cpp:57 FbBookMenu.cpp:50 FbMainMenu.cpp:36
+#: FbPreviewWindow.cpp:69
+msgid "Select all"
+msgstr "Выделить все"
+
+#: controls/FbLogModel.cpp:58 FbBookMenu.cpp:51 FbMainMenu.cpp:37
+#: FbPreviewWindow.cpp:70
+msgid "Undo selection"
+msgstr "Отменить выделение"
+
+#: controls/FbLogModel.cpp:59
+msgid "Hide log window"
+msgstr "Скрыть окно сообщений"
+
+#: dialogs/FbAboutDlg.cpp:8 FbMainMenu.cpp:79
+msgid "About"
+msgstr "О программе…"
+
+#: dialogs/FbAuthorDlg.cpp:21
+msgid "Surname"
+msgstr "Фамилия"
+
+#: dialogs/FbAuthorDlg.cpp:22
+msgid "Name"
+msgstr "Имя"
+
+#: dialogs/FbAuthorDlg.cpp:23
+msgid "Middle-Name"
+msgstr "Отчество"
+
+#: dialogs/FbAuthorDlg.cpp:50
+msgid "Add author"
+msgstr "Добавить автора"
+
+#: dialogs/FbAuthorDlg.cpp:58
+msgid "Change author"
+msgstr "Изменить автора"
+
+#: dialogs/FbAuthorDlg.cpp:177
+msgid "\"Surname\" field is empty"
+msgstr "Не заполнена фамилия автора"
+
+#: dialogs/FbAuthorDlg.cpp:182
+msgid "Autor with same details aleready exists"
+msgstr "Автор с такими реквизитами уже существует"
+
+#: dialogs/FbAuthorDlg.cpp:186 dialogs/FbAuthorDlg.cpp:312
+msgid "Merge authors?"
+msgstr "Объединить двух авторов?"
+
+#: dialogs/FbAuthorDlg.cpp:221 frames/FbFrameAuth.cpp:240 FbMainMenu.cpp:32
+msgid "Replace"
+msgstr "Заменить"
+
+#: dialogs/FbAuthorDlg.cpp:231 FbMainFrame.cpp:419 FbMainFrame.cpp:430
+msgid "Find"
+msgstr "Найти"
+
+#: dialogs/FbAuthorDlg.cpp:252 frames/FbFrameAuth.cpp:148 FbColumns.cpp:8
+#: FbEditBook.cpp:36 FbMenu.cpp:58
+msgid "Author"
+msgstr "Автор"
+
+#: dialogs/FbAuthorDlg.cpp:253 frames/FbFrameAuth.cpp:149
+#: frames/FbFrameClss.cpp:59 frames/FbFrameDate.cpp:40
+#: frames/FbFrameGenr.cpp:35 frames/FbFrameSeqn.cpp:126
+msgid "Num."
+msgstr "Кол."
+
+#: dialogs/FbAuthorDlg.cpp:317
+msgid "Author not selected by replacement."
+msgstr "Не выбран автор для замены."
+
+#: dialogs/FbAuthorDlg.cpp:338
+msgid "Replace author"
+msgstr "Заменить автора"
+
+#: dialogs/FbAuthorDlg.cpp:384
+msgid "Delete author"
+msgstr "Удалить автора"
+
+#: dialogs/FbAuthorDlg.cpp:385
+#, c-format
+msgid "and all of author's books (%d pcs.)?"
+msgstr "и все его книги в количестве %d шт.?"
+
+#: dialogs/FbAuthorDlg.cpp:386 dialogs/FbConfigDlg.cpp:401
+#: dialogs/FbConfigDlg.cpp:584 dialogs/FbParamsDlg.cpp:788
+#: dialogs/FbParamsDlg.cpp:875 frames/FbFrameSeqn.cpp:64
+msgid "Removing"
+msgstr "Удаление"
+
+#: dialogs/FbColumnDlg.cpp:73
+msgid "Columns"
+msgstr "Колонки"
+
+#: dialogs/FbColumnDlg.cpp:82
+msgid "Move field up"
+msgstr "Переместить вверх"
+
+#: dialogs/FbColumnDlg.cpp:82 frames/FbFrameDown.cpp:41
+msgid "Up"
+msgstr "Вверх"
+
+#: dialogs/FbColumnDlg.cpp:83 frames/FbFrameDown.cpp:42
+msgid "Down"
+msgstr "Вниз"
+
+#: dialogs/FbColumnDlg.cpp:83
+msgid "Move field down"
+msgstr "Переместить вниз"
+
+#: dialogs/FbColumnDlg.cpp:88
+msgid "Column"
+msgstr "Колонка"
+
+#: dialogs/FbConfigDlg.cpp:24 dialogs/FbConfigDlg.cpp:191
+msgid "Classifier name"
+msgstr "Имя рубрикатора"
+
+#: dialogs/FbConfigDlg.cpp:35
+msgid "Classifier contents"
+msgstr "Содержимое рубрикатора"
+
+#: dialogs/FbConfigDlg.cpp:42 dialogs/FbConfigDlg.cpp:61
+#: dialogs/FbExportDlg.cpp:56
+msgid "File name"
+msgstr "Имя файла"
+
+#: dialogs/FbConfigDlg.cpp:43 dialogs/FbConfigDlg.cpp:62
+msgid "Table name"
+msgstr "Имя таблицы"
+
+#: dialogs/FbConfigDlg.cpp:44 dialogs/FbConfigDlg.cpp:63
+#: dialogs/FbConfigDlg.cpp:199
+msgid "Key type"
+msgstr "Тип ключа"
+
+#: dialogs/FbConfigDlg.cpp:45 dialogs/FbConfigDlg.cpp:64
+msgid "Field: code"
+msgstr "Поле: код"
+
+#: dialogs/FbConfigDlg.cpp:46
+msgid "Field: name"
+msgstr "Поле: имя"
+
+#: dialogs/FbConfigDlg.cpp:47
+msgid "Field: info"
+msgstr "Поле: описание"
+
+#: dialogs/FbConfigDlg.cpp:48
+msgid "Field: parent"
+msgstr "Поле: родитель"
+
+#: dialogs/FbConfigDlg.cpp:54
+msgid "Detailed records"
+msgstr "Подчиненные записи"
+
+#: dialogs/FbConfigDlg.cpp:65
+msgid "Field: book"
+msgstr "Поле: книга"
+
+#: dialogs/FbConfigDlg.cpp:177
+msgid "Create new classifier"
+msgstr "Создать новый рубрикатор"
+
+#: dialogs/FbConfigDlg.cpp:325 dialogs/FbConfigDlg.cpp:464
+#: dialogs/FbParamsDlg.cpp:355 dialogs/FbParamsDlg.cpp:566
+#: dialogs/FbTitleDlg.cpp:36 dialogs/FbTitleDlg.cpp:115
+#: dialogs/FbTitleDlg.cpp:141 frames/FbFrameAuth.cpp:237
+#: frames/FbFrameClss.cpp:100 frames/FbFrameFldr.cpp:32
+#: frames/FbFrameHtml.cpp:93 frames/FbFrameSeqn.cpp:180 FbMainMenu.cpp:30
+msgid "Append"
+msgstr "Добавить"
+
+#: dialogs/FbConfigDlg.cpp:326 dialogs/FbConfigDlg.cpp:465
+#: dialogs/FbParamsDlg.cpp:356 dialogs/FbParamsDlg.cpp:567
+#: frames/FbFrameAuth.cpp:239 frames/FbFrameClss.cpp:102
+#: frames/FbFrameFldr.cpp:33 frames/FbFrameHtml.cpp:94
+#: frames/FbFrameSeqn.cpp:182 FbMainMenu.cpp:31
+msgid "Modify"
+msgstr "Изменить"
+
+#: dialogs/FbConfigDlg.cpp:327 dialogs/FbConfigDlg.cpp:466
+#: dialogs/FbParamsDlg.cpp:357 dialogs/FbParamsDlg.cpp:568
+#: dialogs/FbTitleDlg.cpp:37 dialogs/FbTitleDlg.cpp:116
+#: dialogs/FbTitleDlg.cpp:142 frames/FbFrameAuth.cpp:241
+#: frames/FbFrameClss.cpp:103 frames/FbFrameDown.cpp:44
+#: frames/FbFrameFldr.cpp:34 frames/FbFrameSeqn.cpp:183 FbExtractInfo.cpp:129
+#: FbMainMenu.cpp:33
+msgid "Delete"
+msgstr "Удалить"
+
+#: dialogs/FbConfigDlg.cpp:332 dialogs/FbParamsDlg.cpp:153
+#: dialogs/FbParamsDlg.cpp:362 dialogs/FbParamsDlg.cpp:573 FbColumns.cpp:12
+#: FbMenu.cpp:61
+msgid "Extension"
+msgstr "Тип"
+
+#: dialogs/FbConfigDlg.cpp:333 dialogs/FbParamsDlg.cpp:363
+msgid "Program"
+msgstr "Программа"
+
+#: dialogs/FbConfigDlg.cpp:354 dialogs/FbParamsDlg.cpp:821
+msgid "Input new filetype"
+msgstr "Введите новый тип файла"
+
+#: dialogs/FbConfigDlg.cpp:354 dialogs/FbParamsDlg.cpp:821 FbMainMenu.cpp:42
+msgid "Settings"
+msgstr "Настройки"
+
+#: dialogs/FbConfigDlg.cpp:381 dialogs/FbParamsDlg.cpp:852
+#: dialogs/FbViewerDlg.cpp:19 dialogs/FbViewerDlg.cpp:44
+msgid "Select the application to view files"
+msgstr "Выберите приложение для просмотра файлов"
+
+#: dialogs/FbConfigDlg.cpp:400 dialogs/FbParamsDlg.cpp:874
+msgid "Delete file type"
+msgstr "Удалить тип файла"
+
+#: dialogs/FbConfigDlg.cpp:463
+msgid "Create"
+msgstr "Создать"
+
+#: dialogs/FbConfigDlg.cpp:555
+msgid "Append classifier"
+msgstr "Добавить рубрикатор"
+
+#: dialogs/FbConfigDlg.cpp:583
+msgid "Delete classifier"
+msgstr "Удалить рубрикатор"
+
+#: dialogs/FbConfigDlg.cpp:733
+msgid "Library name:"
+msgstr "Название библиотеки:"
+
+#: dialogs/FbConfigDlg.cpp:742 dialogs/FbDataOpenDlg.cpp:74
+msgid "Library folder:"
+msgstr "Размещение файлов коллекции:"
+
+#: dialogs/FbConfigDlg.cpp:751
+msgid "Short description:"
+msgstr "Краткое описание:"
+
+#: dialogs/FbConfigDlg.cpp:772
+msgid "Host name:"
+msgstr "Интернет сайт:"
+
+#: dialogs/FbConfigDlg.cpp:782
+msgid "Address:"
+msgstr "Адресная строка:"
+
+#: dialogs/FbConfigDlg.cpp:791 dialogs/FbParamsDlg.cpp:288
+msgid "User name:"
+msgstr "Имя пользователя:"
+
+#: dialogs/FbConfigDlg.cpp:798 dialogs/FbParamsDlg.cpp:295
+msgid "Password:"
+msgstr "Пароль:"
+
+#: dialogs/FbConfigDlg.cpp:814
+msgid "Library options"
+msgstr "Параметры библиотеки"
+
+#: dialogs/FbConfigDlg.cpp:822 dialogs/FbParamsDlg.cpp:611
+#: dialogs/FbReaderDlg.cpp:130 dialogs/FbTitleDlg.cpp:336
+msgid "General"
+msgstr "Основные"
+
+#: dialogs/FbConfigDlg.cpp:823 dialogs/FbParamsDlg.cpp:612
+msgid "Network"
+msgstr "Интернет"
+
+#: dialogs/FbConfigDlg.cpp:824 dialogs/FbParamsDlg.cpp:613
+#: frames/FbFrameInfo.cpp:149
+msgid "File types"
+msgstr "Типы файлов"
+
+#: dialogs/FbConfigDlg.cpp:825
+msgid "Tables"
+msgstr "Таблицы"
+
+#: dialogs/FbConfigDlg.cpp:845 dialogs/FbDataOpenDlg.cpp:172
+#: dialogs/FbDirImportDlg.cpp:51 dialogs/FbParamsDlg.cpp:644
+msgid "Select folder"
+msgstr "Выберите директорию"
+
+#: dialogs/FbConvertDlg.cpp:256
+#, c-format
+msgid "can't delete file %s"
+msgstr "Не удалось удалить файл %s"
+
+#: dialogs/FbConvertDlg.cpp:343
+msgid "Cancel"
+msgstr "Отмена"
+
+#: dialogs/FbConvertDlg.cpp:468
+msgid "Close"
+msgstr "Закрыть"
+
+#: dialogs/FbConvertDlg.cpp:473
+#, c-format
+msgid "Export completed with %d errors"
+msgstr "Экспорт завершен с %d ошибками"
+
+#: dialogs/FbConvertDlg.cpp:474
+msgid "Export completed successfully"
+msgstr "Экспорт успешно завершен"
+
+#: dialogs/FbConvertDlg.cpp:475
+msgid "Export aborted by user"
+msgstr "Экспорт прерван пользователем"
+
+#: dialogs/FbDataOpenDlg.cpp:24 FbImportThread.cpp:195
+msgid "Download collection"
+msgstr "Скачать коллекцию"
+
+#: dialogs/FbDataOpenDlg.cpp:42
+msgid "Select action:"
+msgstr "Выберите действие:"
+
+#: dialogs/FbDataOpenDlg.cpp:47
+msgid "Open (or create) local collection"
+msgstr "Открыть (создать) локальную коллекцию"
+
+#: dialogs/FbDataOpenDlg.cpp:55
+msgid "File name:"
+msgstr "Имя файла:"
+
+#: dialogs/FbDataOpenDlg.cpp:91
+msgid "Run a full scan for library files"
+msgstr "Выполнить полное сканирование файлов библиотеки"
+
+#: dialogs/FbDataOpenDlg.cpp:97 dialogs/FbDirImportDlg.cpp:29
+msgid "Process only new files"
+msgstr "Обрабатывать только новые файлы"
+
+#: dialogs/FbDataOpenDlg.cpp:101 dialogs/FbDirImportDlg.cpp:33
+msgid "Exclude files missing from the collection"
+msgstr "Исключить файлы, отсутствующие в коллекции"
+
+#: dialogs/FbDataOpenDlg.cpp:121 FbMainMenu.cpp:64
+msgid "Open (or create) collection"
+msgstr "Открыть (создать) коллекцию"
+
+#: dialogs/FbDataOpenDlg.cpp:150
+msgid "Enter collection filename"
+msgstr "Выберите имя файла коллекции"
+
+#: dialogs/FbDataOpenDlg.cpp:153
+msgid "Database file (*.db)|*.db|All files (*.*)|*.*"
+msgstr "Файл базы данных (*.db)|*.db|Все файлы (*.*)|*.*"
+
+#: dialogs/FbDataOpenDlg.cpp:249
+msgid "Processing collection"
+msgstr "Обработка коллекции"
+
+#: dialogs/FbDirImportDlg.cpp:22
+msgid "Select folder to recursive import"
+msgstr "Выберите папку для рекурсивного импорта файлов в библиотеку"
+
+#: dialogs/FbDirImportDlg.cpp:75 dialogs/FbDirImportDlg.cpp:78
+#: FbMainMenu.cpp:18
+msgid "Add folder"
+msgstr "Добавить директорию"
+
+#: dialogs/FbExportDlg.cpp:21
+msgid "Export to external storage"
+msgstr "Экспорт на внешнее устройство"
+
+#: dialogs/FbExportDlg.cpp:34 dialogs/FbParamsDlg.cpp:459
+msgid "Destination folder:"
+msgstr "Папка внешнего устройства:"
+
+#: dialogs/FbExportDlg.cpp:49
+msgid "Use Author (without co-Authors)"
+msgstr "Использовать текущего автора (без соавторов)"
+
+#: dialogs/FbExportDlg.cpp:57 frames/FbFrameInfo.cpp:138 FbColumns.cpp:13
+msgid "Size, Kb"
+msgstr "Размер, Кб"
+
+#: dialogs/FbExportDlg.cpp:65
+msgid "Export As..."
+msgstr "Формат выгрузки файлов:"
+
+#: dialogs/FbExportDlg.cpp:95 dialogs/FbExportDlg.cpp:116
+#: dialogs/FbParamsDlg.cpp:539 dialogs/FbParamsDlg.cpp:733
+#: dialogs/FbParamsDlg.cpp:766 dialogs/FbParamsDlg.cpp:972
+msgid "filename"
+msgstr "имя_файла"
+
+#: dialogs/FbExportDlg.cpp:141
+msgid "Select a destination folder"
+msgstr "Выберите папку внешнего устройства"
+
+#: dialogs/FbExportDlg.cpp:176
+msgid "Destination folder not found"
+msgstr "Не найдена папка внешнего устройства"
+
+#: dialogs/FbExportDlg.cpp:180
+msgid "Unable write files to destination folder"
+msgstr "Папка внешнего устройства не доступна для записи"
+
+#: dialogs/FbExportDlg.cpp:203
+msgid "Not selected any book"
+msgstr "Не выбрано ни одной книги"
+
+#: dialogs/FbFilterDlg.cpp:14
+msgid "Filter settings"
+msgstr "Настройка фильтра"
+
+#: dialogs/FbFilterDlg.cpp:23
+msgid "Show books by allocation"
+msgstr "Отбор книг по принадлежности"
+
+#: dialogs/FbFilterDlg.cpp:25
+msgid "Library books (web)"
+msgstr "Библиотечные"
+
+#: dialogs/FbFilterDlg.cpp:29
+msgid "Deleted books"
+msgstr "Удаленные"
+
+#: dialogs/FbFilterDlg.cpp:33
+msgid "Local books"
+msgstr "Собственные"
+
+#: dialogs/FbFilterDlg.cpp:43 dialogs/FbParamsDlg.cpp:384 FbColumns.cpp:11
+#: FbMenu.cpp:60
+msgid "Language"
+msgstr "Язык"
+
+#: dialogs/FbFilterDlg.cpp:47 frames/FbFrameInfo.cpp:136
+msgid "File extension"
+msgstr "Тип файла"
+
+#: dialogs/FbParamsDlg.cpp:129
+msgid "Full file path with name and extension"
+msgstr "Полное имя файла с указанием его директории и расширения."
+
+#: dialogs/FbParamsDlg.cpp:130
+msgid "Full file path without extension"
+msgstr "Полный путь файла без расширения"
+
+#: dialogs/FbParamsDlg.cpp:131
+msgid "File name without path and extension"
+msgstr "Полное имя файла без имени директории и расширения."
+
+#: dialogs/FbParamsDlg.cpp:132
+msgid "Target directory"
+msgstr "Директория"
+
+#: dialogs/FbParamsDlg.cpp:133 dialogs/FbParamsDlg.cpp:490
+msgid "File name extension"
+msgstr "Расширение файла"
+
+#: dialogs/FbParamsDlg.cpp:224
+msgid "List of authors and books:"
+msgstr "Списки книг, авторов:"
+
+#: dialogs/FbParamsDlg.cpp:225
+msgid "Toolbar:"
+msgstr "Панель инструментов:"
+
+#: dialogs/FbParamsDlg.cpp:226
+msgid "Information:"
+msgstr "Информация:"
+
+#: dialogs/FbParamsDlg.cpp:227
+msgid "Dialog windows:"
+msgstr "Окна диалогов:"
+
+#: dialogs/FbParamsDlg.cpp:231
+msgid "Reset fonts settings"
+msgstr "Сбросить все шрифты"
+
+#: dialogs/FbParamsDlg.cpp:267
+msgid "Automatically begin files downloading"
+msgstr "Автоматически стартовать загрузку файлов"
+
+#: dialogs/FbParamsDlg.cpp:272
+msgid "Use proxy-server"
+msgstr "Использовать прокси-сервер"
+
+#: dialogs/FbParamsDlg.cpp:304
+msgid "Load images for author's description"
+msgstr "Загружать изображения для описаний авторов"
+
+#: dialogs/FbParamsDlg.cpp:307
+msgid "Folder to save downloads:"
+msgstr "Папка для хранения скачанных файлов:"
+
+#: dialogs/FbParamsDlg.cpp:315
+msgid "Delete downloaded files when download query removed"
+msgstr "Удалять скачанные файлы при удалении загрузок из списка"
+
+#: dialogs/FbParamsDlg.cpp:323
+msgid "Download timout (seconds):"
+msgstr "Время ожидания (секунд):"
+
+#: dialogs/FbParamsDlg.cpp:330
+msgid "Number of attempts:"
+msgstr "Количество попыток"
+
+#: dialogs/FbParamsDlg.cpp:394
+msgid "Save full path of the file when importing"
+msgstr "Сохранять полный путь файла при импорте"
+
+#: dialogs/FbParamsDlg.cpp:397
+msgid "Temporary folder:"
+msgstr "Папка для временных файлов:"
+
+#: dialogs/FbParamsDlg.cpp:409
+msgid "Wine temp folder:"
+msgstr "Папка для временных файлов Wine:"
+
+#: dialogs/FbParamsDlg.cpp:421
+msgid "Delete temporary files when you exit the program"
+msgstr "Удалять временные файлы при выходе из программы"
+
+#: dialogs/FbParamsDlg.cpp:424
+msgid "Delete files when you delete a book"
+msgstr "Удалять файлы при удалении книги"
+
+#: dialogs/FbParamsDlg.cpp:427
+msgid "Clear the log window when it closes"
+msgstr "Очищать окно сообщений при его закрытии"
+
+#: dialogs/FbParamsDlg.cpp:430
+msgid "Use a gray font for missing books"
+msgstr "Выделять серым цветом отсутствующие книги"
+
+#: dialogs/FbParamsDlg.cpp:435
+msgid "Maximum width of the cover image"
+msgstr "Максимальная ширина картинки с обложки"
+
+#: dialogs/FbParamsDlg.cpp:467
+msgid "Exported collection structure"
+msgstr "Организация папок и файлов"
+
+#: dialogs/FbParamsDlg.cpp:467
+msgid "Exported structure:"
+msgstr "Организация папок и файлов:"
+
+#: dialogs/FbParamsDlg.cpp:481
+msgid "First letter of author name"
+msgstr "Первая буква фамилии автора"
+
+#: dialogs/FbParamsDlg.cpp:482
+msgid "Full author name"
+msgstr "Полные фамилия, имя, отчество автора"
+
+#: dialogs/FbParamsDlg.cpp:483
+msgid "Short-cut author name"
+msgstr "Фамилия автора и инициалы"
+
+#: dialogs/FbParamsDlg.cpp:484
+msgid "Sequence name"
+msgstr "Наименование серии"
+
+#: dialogs/FbParamsDlg.cpp:485
+msgid "Number in sequence"
+msgstr "Номер книги в серии"
+
+#: dialogs/FbParamsDlg.cpp:486
+msgid "Internal book code"
+msgstr "Внутренний код книги"
+
+#: dialogs/FbParamsDlg.cpp:487 dialogs/FbTitleDlg.cpp:175
+msgid "Book title"
+msgstr "Заголовок"
+
+#: dialogs/FbParamsDlg.cpp:488
+msgid "Book language"
+msgstr "Язык книги"
+
+#: dialogs/FbParamsDlg.cpp:489
+msgid "Book file MD5 sum"
+msgstr "Контрольная сумма файла MD5"
+
+#: dialogs/FbParamsDlg.cpp:507
+msgid "Transliterate folder name"
+msgstr "Транслитерация имени папки"
+
+#: dialogs/FbParamsDlg.cpp:510
+msgid "Transliterate filename"
+msgstr "Транслитерация имен файлов"
+
+#: dialogs/FbParamsDlg.cpp:513
+msgid "Replace spaces by underscores"
+msgstr "Заменять пробелы символами подчеркивания"
+
+#: dialogs/FbParamsDlg.cpp:518
+msgid "Number of digits in the number"
+msgstr "Количество цифр в номере книги"
+
+#: dialogs/FbParamsDlg.cpp:535
+msgid "Format of exporting collection"
+msgstr "Формат выгрузки"
+
+#: dialogs/FbParamsDlg.cpp:574
+msgid "Export script"
+msgstr "Скрипт для экспорта"
+
+#: dialogs/FbParamsDlg.cpp:614 FbMainFrame.cpp:436 FbMainMenu.cpp:20
+msgid "Export"
+msgstr "Экспорт"
+
+#: dialogs/FbParamsDlg.cpp:615
+msgid "Scripts"
+msgstr "Скрипты"
+
+#: dialogs/FbParamsDlg.cpp:616
+msgid "Fonts"
+msgstr "Шрифты"
+
+#: dialogs/FbParamsDlg.cpp:705
+msgid "Program settings"
+msgstr "Настройка параметров программы"
+
+#: dialogs/FbParamsDlg.cpp:725
+msgid "Append export script"
+msgstr "Добавить скрипт"
+
+#: dialogs/FbParamsDlg.cpp:752
+msgid "Modify export script"
+msgstr "Изменить скрипт"
+
+#: dialogs/FbParamsDlg.cpp:787
+msgid "Delete export script"
+msgstr "Удалить скрипт"
+
+#: dialogs/FbReaderDlg.cpp:31
+msgid "Main font"
+msgstr "Основной шрифт"
+
+#: dialogs/FbReaderDlg.cpp:39 dialogs/FbReaderDlg.cpp:93
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: dialogs/FbReaderDlg.cpp:46
+msgid "Interline space"
+msgstr "Межстрочный интервал"
+
+#: dialogs/FbReaderDlg.cpp:53
+msgid "Font colour"
+msgstr "Цвет текста"
+
+#: dialogs/FbReaderDlg.cpp:60
+msgid "Background colour"
+msgstr "Цвет фона"
+
+#: dialogs/FbReaderDlg.cpp:85
+msgid "Header font"
+msgstr "Шрифт колонтитула"
+
+#: dialogs/FbReaderDlg.cpp:100
+msgid "Header colour"
+msgstr "Цвет колонтитула"
+
+#: dialogs/FbReaderDlg.cpp:131 frames/FbCoolReader.cpp:101
+msgid "Page"
+msgstr "Страница"
+
+#: dialogs/FbReaderDlg.cpp:174 frames/FbCoolReader.cpp:631 FbMainMenu.cpp:40
+msgid "Cool Reader options"
+msgstr "Настройки Cool Reader"
+
+#: dialogs/FbSequenDlg.cpp:13
+msgid "Series name:"
+msgstr "Наименование серии:"
+
+#: dialogs/FbSequenDlg.cpp:34
+msgid "Append series"
+msgstr "Добавить серию"
+
+#: dialogs/FbSequenDlg.cpp:42
+msgid "Modify series"
+msgstr "Изменить серию"
+
+#: dialogs/FbSequenDlg.cpp:129
+msgid "\"Series name\" field is empty"
+msgstr "Не заполнено наименование серии."
+
+#: dialogs/FbSequenDlg.cpp:134
+msgid "Series aleready exists"
+msgstr "Такая серия уже существует."
+
+#: dialogs/FbSequenDlg.cpp:137
+msgid "Merge series?"
+msgstr "Объединить две серии?"
+
+#: dialogs/FbTitleDlg.cpp:106 FbColumns.cpp:9
+msgid "#"
+msgstr "№"
+
+#: dialogs/FbTitleDlg.cpp:191 frames/FbFrameBase.h:45 FbMainMenu.cpp:52
+msgid "Authors"
+msgstr "Авторы"
+
+#: dialogs/FbTitleDlg.cpp:212 frames/FbFrameSeqn.h:30 FbEditBook.cpp:37
+#: FbMainMenu.cpp:54
+msgid "Series"
+msgstr "Серии"
+
+#: dialogs/FbTitleDlg.cpp:233 frames/FbFrameGenr.h:19 FbMainMenu.cpp:53
+msgid "Genres"
+msgstr "Жанры"
+
+#: dialogs/FbTitleDlg.cpp:326 FbBookMenu.cpp:76
+msgid "Properties"
+msgstr "Свойства"
+
+#: dialogs/FbViewerDlg.cpp:13
+msgid "Customize"
+msgstr "Настройка"
+
+#: dialogs/FbViewerDlg.cpp:46
+msgid "Executable files"
+msgstr "Исполняемые файлы"
+
+#: frames/FbCoolReader.cpp:100 FbColumns.cpp:7 FbColumns.cpp:122
+#: FbEditBook.cpp:67 FbMenu.cpp:57
+msgid "Title"
+msgstr "Заголовок"
+
+#: frames/FbCoolReader.cpp:630
+msgid "Table of Contents"
+msgstr "Оглавление"
+
+#: frames/FbFrameAuth.cpp:244
+msgid "Online authors page"
+msgstr "Страница автора"
+
+#: frames/FbFrameClss.cpp:58
+msgid "Classifier"
+msgstr "Рубрикатор"
+
+#: frames/FbFrameDate.cpp:39 FbColumns.cpp:16 FbMenu.cpp:63
+msgid "Date"
+msgstr "Дата"
+
+#: frames/FbFrameDate.h:16 FbMainMenu.cpp:55
+msgid "Calendar"
+msgstr "Календарь"
+
+#: frames/FbFrameDown.cpp:38
+msgid "Start"
+msgstr "Старт"
+
+#: frames/FbFrameDown.cpp:38
+msgid "Start downloading"
+msgstr "Начать загрузку файлов через интернет"
+
+#: frames/FbFrameDown.cpp:39
+msgid "Stop"
+msgstr "Стоп"
+
+#: frames/FbFrameDown.cpp:39
+msgid "Stop downloading"
+msgstr "Остановить загрузку файлов через интернет"
+
+#: frames/FbFrameDown.cpp:41
+msgid "Move up in queue"
+msgstr "Передвинуть в начало очереди"
+
+#: frames/FbFrameDown.cpp:42
+msgid "Move down in queue"
+msgstr "Передвинуть в конец очереди"
+
+#: frames/FbFrameDown.cpp:44
+msgid "Remove download"
+msgstr "Удалить загрузку"
+
+#: frames/FbFrameDown.cpp:66 frames/FbFrameFldr.cpp:56
+msgid "Folders"
+msgstr "Папки"
+
+#: frames/FbFrameDown.cpp:72
+msgid "Queue"
+msgstr "Очередь"
+
+#: frames/FbFrameDown.cpp:73
+msgid "Ready"
+msgstr "Готово"
+
+#: frames/FbFrameDown.cpp:74
+msgid "Fault"
+msgstr "Ошибки"
+
+#: frames/FbFrameDown.h:10 FbMainMenu.cpp:59
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: frames/FbFrameFldr.cpp:64
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#: frames/FbFrameFldr.cpp:65
+msgid "Favorites"
+msgstr "Избранное"
+
+#: frames/FbFrameFldr.cpp:78
+msgid "Remarks"
+msgstr "Пометки"
+
+#: frames/FbFrameFldr.cpp:119
+msgid "Add folder?"
+msgstr "Добавить папку?"
+
+#: frames/FbFrameFldr.cpp:119
+msgid "Input name of new folder:"
+msgstr "Введите имя новой папки:"
+
+#: frames/FbFrameFldr.cpp:149
+msgid "Change folder?"
+msgstr "Изменить папку?"
+
+#: frames/FbFrameFldr.cpp:149
+msgid "Input new folder name:"
+msgstr "Введите новое имя папки:"
+
+#: frames/FbFrameFldr.cpp:175
+#, c-format
+msgid "Delete folder \"%s\"?"
+msgstr "Удалить папку «%s»?"
+
+#: frames/FbFrameFldr.cpp:176
+msgid "Delete folder?"
+msgstr "Удалить папку?"
+
+#: frames/FbFrameFldr.h:10 FbMainMenu.cpp:58
+msgid "My folders"
+msgstr "Мои папки"
+
+#: frames/FbFrameGenr.cpp:34
+msgid "List of genres"
+msgstr "Список жанров"
+
+#: frames/FbFrameHtml.cpp:84
+msgid "Comment:"
+msgstr "Комментарий:"
+
+#: frames/FbFrameHtml.cpp:123 frames/FbFrameInfo.cpp:197
+msgid "Select a file to export report"
+msgstr "Выберите файл для экспорта отчета"
+
+#: frames/FbFrameHtml.cpp:126 frames/FbFrameInfo.cpp:200
+msgid ""
+"HTML files (*.html; *.htm)|*.html;*.HTML;*.HTM;*.htm|All files (*.*)|*.*"
+msgstr ""
+"Файлы HTML (*.html; *.htm)|*.html;*.HTML;*.HTM;*.htm|Все файлы (*.*)|*.*"
+
+#: frames/FbFrameHtml.cpp:224 FbBookData.cpp:75 FbBookPanel.cpp:443
+msgid "Confirmation"
+msgstr "Подтверждение"
+
+#: frames/FbFrameHtml.cpp:224
+msgid "Remove comment?"
+msgstr "Удалить комментарий?"
+
+#: frames/FbFrameHtml.h:19 models/FbFldrTree.cpp:23
+msgid "Comments"
+msgstr "Комментарии"
+
+#: frames/FbFrameInfo.cpp:55 FbMainMenu.cpp:67
+msgid "Information about collection"
+msgstr "Информация о коллекции"
+
+#: frames/FbFrameInfo.cpp:97
+msgid "Total quantity"
+msgstr "Общее количество"
+
+#: frames/FbFrameInfo.cpp:106
+msgid "Total books count:"
+msgstr "Общее количество книг:"
+
+#: frames/FbFrameInfo.cpp:110
+msgid "Authors counting"
+msgstr "Подсчет авторов"
+
+#: frames/FbFrameInfo.cpp:117
+msgid "Authors count:"
+msgstr "Количество авторов:"
+
+#: frames/FbFrameInfo.cpp:121
+msgid "Total files size, Mb:"
+msgstr "Суммарный размер файлов, Мб:"
+
+#: frames/FbFrameInfo.cpp:123
+msgid "First reciept:"
+msgstr "Первое поступление:"
+
+#: frames/FbFrameInfo.cpp:125
+msgid "Last reciept:"
+msgstr "Последнее поступление:"
+
+#: frames/FbFrameInfo.cpp:137
+msgid "Count"
+msgstr "Количество"
+
+#: frames/FbFrameInfo.cpp:173
+msgid "Collection info"
+msgstr "Информация о коллекции"
+
+#: frames/FbFrameInfo.h:15
+msgid "Information"
+msgstr "Информация"
+
+#: frames/FbFrameSeqn.cpp:63
+#, c-format
+msgid "Delete series \"%s\"?"
+msgstr "Удалить серию «%s»?"
+
+#: frames/FbFrameSeqn.cpp:125 FbColumns.cpp:18
+msgid "Ser."
+msgstr "Серия"
+
+#: models/FbFilterTree.h:11
+msgid "All"
+msgstr "Все"
+
+#: FbBookData.cpp:75
+msgid "Download book file?"
+msgstr "Скачать книгу?"
+
+#: FbBookData.cpp:251
+msgid "Associated application not found"
+msgstr "Не найдено приложение для просмотра файлов типа"
+
+#: FbBookMenu.cpp:35
+msgid "Open book"
+msgstr "Открыть книгу"
+
+#: FbBookMenu.cpp:39
+msgid "Delete download query"
+msgstr "Удалить закачку"
+
+#: FbBookMenu.cpp:40
+msgid "Retry download"
+msgstr "Скачать повторно"
+
+#: FbBookMenu.cpp:42
+msgid "Download a file"
+msgstr "Скачать файл"
+
+#: FbBookMenu.cpp:45
+msgid "Download via browser"
+msgstr "Скачать в браузере"
+
+#: FbBookMenu.cpp:46
+msgid "Online books page"
+msgstr "Книга на сайте библиотеки"
+
+#: FbBookMenu.cpp:52 FbMainMenu.cpp:84
+msgid "Table columns"
+msgstr "Колонки таблицы"
+
+#: FbBookMenu.cpp:55
+msgid "Delete book"
+msgstr "Удалить книгу"
+
+#: FbBookMenu.cpp:58 FbMainMenu.cpp:86
+msgid "Sort by"
+msgstr "Сортировка"
+
+#: FbBookMenu.cpp:59 FbMainMenu.cpp:89
+msgid "Filter setup..."
+msgstr "Настройка фильтра..."
+
+#: FbBookMenu.cpp:60 FbMainMenu.cpp:90
+msgid "Use filter"
+msgstr "Использовать фильтр"
+
+#: FbBookMenu.cpp:69
+msgid "Add to favourites"
+msgstr "Добавить в избранное"
+
+#: FbBookMenu.cpp:71
+msgid "Rate this book"
+msgstr "Установить рейтинг"
+
+#: FbBookMenu.cpp:72
+msgid "Delete bookmark"
+msgstr "Удалить закладку"
+
+#: FbBookMenu.cpp:75 FbMainMenu.cpp:92
+msgid "Add comments"
+msgstr "Комментарии"
+
+#: FbBookMenu.cpp:81
+msgid "Jump to author"
+msgstr "Перейти к автору"
+
+#: FbBookMenu.cpp:109
+msgid "Jump to series"
+msgstr "Перейти к серии"
+
+#: FbBookMenu.cpp:137
+msgid "Add to folders"
+msgstr "Добавить в папку"
+
+#: FbBookPanel.cpp:442
+#, c-format
+msgid "Delete selected books (%d pcs)?"
+msgstr "Удалить выделенные книги (%d шт.)?"
+
+#: FbCollection.cpp:141
+msgid "(Misc.)"
+msgstr "(разное)"
+
+#: FbCollection.cpp:160
+msgid "(no Author)"
+msgstr "(без автора)"
+
+#: FbColumns.cpp:10 FbEditBook.cpp:38
+msgid "Genre"
+msgstr "Жанр"
+
+#: FbColumns.cpp:14
+msgid "Code"
+msgstr "Код"
+
+#: FbColumns.cpp:15 FbMenu.cpp:59
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: FbColumns.cpp:17
+msgid "Size, byte"
+msgstr "Размер, байт"
+
+#: FbColumns.cpp:19
+msgid "MD5 Sum"
+msgstr "Сумма MD5"
+
+#: FbColumns.cpp:20
+msgid "Downloaded"
+msgstr "Дата скачивания"
+
+#: FbConst.cpp:50
+msgid "Clear"
+msgstr "Очистить"
+
+#: FbDatabase.cpp:140
+msgid "Search template"
+msgstr "Шаблон для поиска"
+
+#: FbDatabase.cpp:387
+#, c-format
+msgid "Upgrade database to version %d"
+msgstr "Обновить базу данных до версии %d"
+
+#: FbDatabase.cpp:396
+msgid "Database version mismatch"
+msgstr "Несоответствие верси базы данных."
+
+#: FbDatabase.cpp:399
+#, c-format
+msgid "Need a new version %d, but used the old %d."
+msgstr "Требуется новая версия %d, обнаружена старая %d"
+
+#: FbDatabase.cpp:413
+msgid "Create database"
+msgstr "Создать базу данных"
+
+#: FbDatabase.cpp:413
+msgid "Open database"
+msgstr "Открыть базу данных"
+
+#: FbDatabase.cpp:577
+msgid "The best"
+msgstr "Лучшие"
+
+#: FbDatabase.cpp:578 FbGenres.cpp:263
+msgid "Other"
+msgstr "Прочие"
+
+#: FbFilterThread.cpp:20
+msgid "Create filter"
+msgstr "Построение фильтра"
+
+#: FbGenreThread.cpp:12 FbMainMenu.cpp:68
+msgid "Rebuild the list of genres"
+msgstr "Пересчитать список жанров"
+
+#: FbGenres.cpp:48
+msgid "Fiction"
+msgstr "Фантастика"
+
+#: FbGenres.cpp:49
+msgid "Mysteries and Thrillers"
+msgstr "Детективы и Триллеры"
+
+#: FbGenres.cpp:50 FbGenres.cpp:98
+msgid "Prose"
+msgstr "Проза"
+
+#: FbGenres.cpp:51
+msgid "Romance"
+msgstr "Любовные романы"
+
+#: FbGenres.cpp:52 FbGenres.cpp:112
+msgid "Adventures"
+msgstr "Приключения"
+
+#: FbGenres.cpp:53 FbGenres.cpp:120
+msgid "Children literature"
+msgstr "Детская литература"
+
+#: FbGenres.cpp:54
+msgid "Poetry, dramaturgy"
+msgstr "Поэзия, Драматургия"
+
+#: FbGenres.cpp:55
+msgid "Antique"
+msgstr "Старинное"
+
+#: FbGenres.cpp:56
+msgid "Science, Education"
+msgstr "Наука, Образование"
+
+#: FbGenres.cpp:57
+msgid "PC, Internet"
+msgstr "Компьютеры и Интернет"
+
+#: FbGenres.cpp:58 FbGenres.cpp:156
+msgid "References"
+msgstr "Справочная литература"
+
+#: FbGenres.cpp:59 FbGenres.cpp:161
+msgid "Documentary literature"
+msgstr "Документальная литература"
+
+#: FbGenres.cpp:60
+msgid "Religion and Spirituality"
+msgstr "Религия и духовность"
+
+#: FbGenres.cpp:61 FbGenres.cpp:169
+msgid "Humour"
+msgstr "Юмор"
+
+#: FbGenres.cpp:62
+msgid "Home and Family"
+msgstr "Домоводство (Дом и семья)"
+
+#: FbGenres.cpp:63
+msgid "Economy, Business"
+msgstr "Экономика и бизнес"
+
+#: FbGenres.cpp:67
+msgid "Alternative History"
+msgstr "Альтернативная история"
+
+#: FbGenres.cpp:68
+msgid "Fighting fantasy"
+msgstr "Боевая фантастика"
+
+#: FbGenres.cpp:69
+msgid "Epic fantasy"
+msgstr "Эпическая фантастика"
+
+#: FbGenres.cpp:70
+msgid "Heroic fantasy"
+msgstr "Героическая фантастика"
+
+#: FbGenres.cpp:71
+msgid "Detective Fiction"
+msgstr "Детективная фантастика"
+
+#: FbGenres.cpp:72
+msgid "Cyberpunk"
+msgstr "Киберпанк"
+
+#: FbGenres.cpp:73
+msgid "Space Fiction"
+msgstr "Космическая фантастика"
+
+#: FbGenres.cpp:74
+msgid "Socio-psychological fiction"
+msgstr "Социально-психологическая фантастика"
+
+#: FbGenres.cpp:75
+msgid "Horror and Mysticism"
+msgstr "Ужасы и Мистика"
+
+#: FbGenres.cpp:76
+msgid "Humorous Fiction"
+msgstr "Юмористическая фантастика"
+
+#: FbGenres.cpp:77
+msgid "Fantasy"
+msgstr "Фэнтези"
+
+#: FbGenres.cpp:78
+msgid "Science Fiction"
+msgstr "Научная Фантастика"
+
+#: FbGenres.cpp:79
+msgid "Classic mystery"
+msgstr "Классический детектив"
+
+#: FbGenres.cpp:80
+msgid "Police mystery"
+msgstr "Полицейский детектив"
+
+#: FbGenres.cpp:81
+msgid "Action"
+msgstr "Боевик"
+
+#: FbGenres.cpp:82
+msgid "Ironic mystery"
+msgstr "Иронический детектив"
+
+#: FbGenres.cpp:83
+msgid "Historical mystery"
+msgstr "Исторический детектив"
+
+#: FbGenres.cpp:84
+msgid "Spy mystery"
+msgstr "Шпионский детектив"
+
+#: FbGenres.cpp:85
+msgid "Criminal mystery"
+msgstr "Криминальный детектив"
+
+#: FbGenres.cpp:86
+msgid "Political mystery"
+msgstr "Политический детектив"
+
+#: FbGenres.cpp:87
+msgid "Maniacs"
+msgstr "Маньяки"
+
+#: FbGenres.cpp:88
+msgid "Action mystery"
+msgstr "Крутой детектив"
+
+#: FbGenres.cpp:89
+msgid "Thriller"
+msgstr "Триллер"
+
+#: FbGenres.cpp:90
+msgid "Mystery"
+msgstr "Детектив"
+
+#: FbGenres.cpp:91
+msgid "Classical prose"
+msgstr "Классическая проза"
+
+#: FbGenres.cpp:92
+msgid "Historical prose"
+msgstr "Историческая проза"
+
+#: FbGenres.cpp:93
+msgid "Modern prose"
+msgstr "Современная проза"
+
+#: FbGenres.cpp:94
+msgid "Counterculture"
+msgstr "Контркультура"
+
+#: FbGenres.cpp:95
+msgid "Russian Classical prose"
+msgstr "Русская классическая проза"
+
+#: FbGenres.cpp:96
+msgid "Soviet Classical prose"
+msgstr "Советская классическая проза"
+
+#: FbGenres.cpp:97
+msgid "Prose military"
+msgstr "Военная проза"
+
+#: FbGenres.cpp:99
+msgid "Modern romance novels"
+msgstr "Современные любовные романы"
+
+#: FbGenres.cpp:100
+msgid "Historical romance novels"
+msgstr "Исторические любовные романы"
+
+#: FbGenres.cpp:101
+msgid "Action romance novels"
+msgstr "Остросюжетные любовные романы"
+
+#: FbGenres.cpp:102
+msgid "Short romance novels"
+msgstr "Короткие любовные романы"
+
+#: FbGenres.cpp:103
+msgid "Erotic novels"
+msgstr "Эротика"
+
+#: FbGenres.cpp:104
+msgid "Love science fiction"
+msgstr "Любовная фантастика"
+
+#: FbGenres.cpp:105
+msgid "Love novels"
+msgstr "Любовные романы"
+
+#: FbGenres.cpp:106
+msgid "Western"
+msgstr "Вестерн"
+
+#: FbGenres.cpp:107
+msgid "Historical adventures"
+msgstr "Исторические приключения"
+
+#: FbGenres.cpp:108
+msgid "Adventures about Indians"
+msgstr "Приключения про индейцев"
+
+#: FbGenres.cpp:109
+msgid "Sea adventures"
+msgstr "Морские приключения"
+
+#: FbGenres.cpp:110
+msgid "Travel and Geography"
+msgstr "Путешествия и география"
+
+#: FbGenres.cpp:111
+msgid "Nature and Animals"
+msgstr "Природа и животные"
+
+#: FbGenres.cpp:113
+msgid "Tales"
+msgstr "Сказка"
+
+#: FbGenres.cpp:114
+msgid "Children poetry"
+msgstr "Детские стихи"
+
+#: FbGenres.cpp:115
+msgid "Childern prose"
+msgstr "Детская проза"
+
+#: FbGenres.cpp:116
+msgid "Children fiction"
+msgstr "Детская фантастика"
+
+#: FbGenres.cpp:117
+msgid "Children action"
+msgstr "Детские остросюжетные"
+
+#: FbGenres.cpp:118
+msgid "Children adventures"
+msgstr "Детские приключения"
+
+#: FbGenres.cpp:119
+msgid "Children education"
+msgstr "Детская образовательная литература"
+
+#: FbGenres.cpp:121
+msgid "Poetry"
+msgstr "Поэзия"
+
+#: FbGenres.cpp:122
+msgid "Dramaturgy"
+msgstr "Драматургия"
+
+#: FbGenres.cpp:123
+msgid "Antique Literature"
+msgstr "Античная литература"
+
+#: FbGenres.cpp:124
+msgid "European ancient literature"
+msgstr "Европейская старинная литература"
+
+#: FbGenres.cpp:125
+msgid "Russian ancient literature"
+msgstr "Древнерусская литература"
+
+#: FbGenres.cpp:126
+msgid "Oriental ancient literature"
+msgstr "Древневосточная литература"
+
+#: FbGenres.cpp:127
+msgid "Myths. Legends. Epic."
+msgstr "Мифы. Легенды. Эпос."
+
+#: FbGenres.cpp:128
+msgid "Ancient literature"
+msgstr "Старинная литература"
+
+#: FbGenres.cpp:129
+msgid "History"
+msgstr "История"
+
+#: FbGenres.cpp:130
+msgid "Psychology"
+msgstr "Психология"
+
+#: FbGenres.cpp:131
+msgid "Cultural"
+msgstr "Культурология"
+
+#: FbGenres.cpp:132
+msgid "Religious"
+msgstr "Религиоведение"
+
+#: FbGenres.cpp:133
+msgid "Philosophy"
+msgstr "Философия"
+
+#: FbGenres.cpp:134
+msgid "Politology"
+msgstr "Политика"
+
+#: FbGenres.cpp:135
+msgid "Business literature"
+msgstr "Деловая литература"
+
+#: FbGenres.cpp:136
+msgid "Law"
+msgstr "Юриспруденция"
+
+#: FbGenres.cpp:137
+msgid "Linguistics"
+msgstr "Языкознание"
+
+#: FbGenres.cpp:138
+msgid "Medical"
+msgstr "Медицина"
+
+#: FbGenres.cpp:139
+msgid "Physics"
+msgstr "Физика"
+
+#: FbGenres.cpp:140
+msgid "Mathematics"
+msgstr "Математика"
+
+#: FbGenres.cpp:141
+msgid "Chemistry"
+msgstr "Химия"
+
+#: FbGenres.cpp:142
+msgid "Biology"
+msgstr "Биология"
+
+#: FbGenres.cpp:143
+msgid "Engineering"
+msgstr "Технические науки"
+
+#: FbGenres.cpp:144
+msgid "Scientific literature"
+msgstr "Научная литература"
+
+#: FbGenres.cpp:145
+msgid "Internet"
+msgstr "Интернет"
+
+#: FbGenres.cpp:146
+msgid "Programming"
+msgstr "Программирование"
+
+#: FbGenres.cpp:147
+msgid "Computer hardware"
+msgstr "Компьютерное железо (аппаратное обеспечение)"
+
+#: FbGenres.cpp:148
+msgid "Software"
+msgstr "Программы"
+
+#: FbGenres.cpp:149
+msgid "Databases"
+msgstr "Базы данных"
+
+#: FbGenres.cpp:150
+msgid "OS and Network"
+msgstr "ОС и Сети"
+
+#: FbGenres.cpp:151
+msgid "Computer literature"
+msgstr "Компьтерная литература"
+
+#: FbGenres.cpp:152
+msgid "Encyclopedias"
+msgstr "Энциклопедии"
+
+#: FbGenres.cpp:153
+msgid "Dictionaries"
+msgstr "Словари"
+
+#: FbGenres.cpp:154
+msgid "Directories"
+msgstr "Справочники"
+
+#: FbGenres.cpp:155
+msgid "Manuals"
+msgstr "Руководства"
+
+#: FbGenres.cpp:157
+msgid "Biographies and Memoirs"
+msgstr "Биографии и Мемуары"
+
+#: FbGenres.cpp:158
+msgid "Publicism"
+msgstr "Публицистика"
+
+#: FbGenres.cpp:159
+msgid "Criticism"
+msgstr "Критика"
+
+#: FbGenres.cpp:160
+msgid "Art and Design"
+msgstr "Искусство и Дизайн"
+
+#: FbGenres.cpp:162
+msgid "Religion"
+msgstr "Религия"
+
+#: FbGenres.cpp:163
+msgid "Esoterica"
+msgstr "Эзотерика"
+
+#: FbGenres.cpp:164
+msgid "Self-improvement"
+msgstr "Самосовершенствование"
+
+#: FbGenres.cpp:165
+msgid "Religious Literature"
+msgstr "Религиозная литература"
+
+#: FbGenres.cpp:166
+msgid "Jokes"
+msgstr "Анекдоты"
+
+#: FbGenres.cpp:167
+msgid "Humorous prose"
+msgstr "Юмористическая проза"
+
+#: FbGenres.cpp:168
+msgid "Humorous poetry"
+msgstr "Юмористические стихи"
+
+#: FbGenres.cpp:170
+msgid "Cooking"
+msgstr "Кулинария"
+
+#: FbGenres.cpp:171
+msgid "Pets"
+msgstr "Домашние животные"
+
+#: FbGenres.cpp:172
+msgid "Hobbies and Crafts"
+msgstr "Хобби и ремесла"
+
+#: FbGenres.cpp:173
+msgid "Entertainment"
+msgstr "Развлечения"
+
+#: FbGenres.cpp:174
+msgid "Health"
+msgstr "Здоровье"
+
+#: FbGenres.cpp:175
+msgid "Gardening"
+msgstr "Сад и огород"
+
+#: FbGenres.cpp:176
+msgid "Handmade"
+msgstr "Сделай сам"
+
+#: FbGenres.cpp:177
+msgid "Sport"
+msgstr "Спорт"
+
+#: FbGenres.cpp:178
+msgid "Erotic, sex"
+msgstr "Эротика, Секс"
+
+#: FbGenres.cpp:179
+msgid "Household"
+msgstr "Домоводство"
+
+#: FbGenres.cpp:180
+msgid "Geo guides"
+msgstr "Путеводители"
+
+#: FbGenres.cpp:181
+msgid "Job hunting"
+msgstr "Поиск работы, карьера"
+
+#: FbGenres.cpp:182
+msgid "Management"
+msgstr "Управление, подбор персонала"
+
+#: FbGenres.cpp:183
+msgid "Marketing"
+msgstr "Маркетинг, реклама"
+
+#: FbGenres.cpp:184
+msgid "Banking"
+msgstr "Банковское дело"
+
+#: FbGenres.cpp:185
+msgid "Stock"
+msgstr "Ценные бумаги, инвестиции"
+
+#: FbGenres.cpp:186
+msgid "Accounting"
+msgstr "Бухучет, налогообложение, аудит"
+
+#: FbGenres.cpp:187
+msgid "Global economy"
+msgstr "Внешнеэкономическая деятельность"
+
+#: FbGenres.cpp:188
+msgid "Economics"
+msgstr "Экономика"
+
+#: FbGenres.cpp:189
+msgid "Industries"
+msgstr "Отраслевые издания"
+
+#: FbGenres.cpp:190
+msgid "Corporate culture"
+msgstr "Корпоративная культура"
+
+#: FbGenres.cpp:191
+msgid "Personal finance"
+msgstr "Личные финансы"
+
+#: FbGenres.cpp:192
+msgid "Real estate"
+msgstr "Недвижимость"
+
+#: FbGenres.cpp:193
+msgid "Popular business"
+msgstr "О бизнесе популярно"
+
+#: FbGenres.cpp:194
+msgid "Small business"
+msgstr "Малый бизнес"
+
+#: FbGenres.cpp:195
+msgid "Paper work"
+msgstr "Делопроизводство"
+
+#: FbGenres.cpp:196
+msgid "Economics reference book"
+msgstr "Справочники по экономике"
+
+#: FbGenres.cpp:264
+msgid "No genre"
+msgstr "Без жанра"
+
+#: FbImportReader.cpp:55 FbImportReader.cpp:135
+#, c-format
+msgid "Zip read error %s"
+msgstr "Ошибка чтения zip %s"
+
+#: FbImportReader.cpp:58
+#, c-format
+msgid "Import zip %s"
+msgstr "Импорт файла zip %s"
+
+#: FbImportReader.cpp:117
+msgid "Processing file:"
+msgstr "Обработка файла:"
+
+#: FbImportReader.cpp:131
+#, c-format
+msgid "FB2 and FBD not found %s"
+msgstr "Не найдены файлы FB2 и FBD %s"
+
+#: FbImportReader.cpp:205
+#, c-format
+msgid "Import file %s"
+msgstr "Импорт файла %s"
+
+#: FbImportReader.cpp:229
+#, c-format
+msgid "Import zip entry %s"
+msgstr "Импорт элемента %s"
+
+#: FbImportReader.cpp:306
+#, c-format
+msgid "Dublicate author: %s %s"
+msgstr "Автор продублирован: %s %s"
+
+#: FbImportReader.cpp:369
+#, c-format
+msgid "File already exists %s"
+msgstr "Файл уже импортирован %s"
+
+#: FbImportReader.cpp:374
+#, c-format
+msgid "Add alternative %s"
+msgstr "Добавлено альтернативное размещение %s"
+
+#: FbImportReader.cpp:393
+#, c-format
+msgid "Skip entry %s"
+msgstr "Пропущен элемент %s"
+
+#: FbImportThread.cpp:90
+#, c-format
+msgid "Start import %d file(s)"
+msgstr "Начат импорт %d файл(ов)"
+
+#: FbImportThread.cpp:95
+#, c-format
+msgid "Finish import %d file(s)"
+msgstr "Завершен импорт %d файл(ов)"
+
+#: FbImportThread.cpp:137
+#, c-format
+msgid "Import subdirectory %s"
+msgstr "Импорт поддиректории %s"
+
+#: FbImportThread.cpp:149
+#, c-format
+msgid "Start import directory %s"
+msgstr "Начат импорт директории %s"
+
+#: FbImportThread.cpp:153
+#, c-format
+msgid "Can't open directory %s"
+msgstr "Не удалось открыть директорию %s"
+
+#: FbImportThread.cpp:158
+msgid "Processing folder:"
+msgstr "Обработка папки:"
+
+#: FbImportThread.cpp:171
+#, c-format
+msgid "Finish import directory %s"
+msgstr "Завершен импорт директории %s"
+
+#: FbImportThread.cpp:191 FbInternetBook.cpp:67
+msgid "Download error"
+msgstr "Ошибка загрузки"
+
+#: FbImportThread.cpp:213
+msgid "Extract file"
+msgstr "Распаковка файла"
+
+#: FbImportThread.cpp:252
+msgid "Create full text search index"
+msgstr "Создание индекса полнотекстового поиска"
+
+msgid "Update full-text search index?"
+msgstr "Обновить индекс полнотекстового поиска?"
+
+#: FbInternetBook.cpp:55 FbInternetBook.cpp:147
+msgid "Redirect"
+msgstr "Переадресация"
+
+#: FbInternetBook.cpp:59
+msgid "File is missing"
+msgstr "Файл отсутствует"
+
+#: FbInternetBook.cpp:63
+msgid "Server error"
+msgstr "Ошибка сервера"
+
+#: FbInternetBook.cpp:76
+msgid "File download"
+msgstr "Загрузка файла"
+
+#: FbInternetBook.cpp:123
+msgid "Download"
+msgstr "Загрузка"
+
+#: FbInternetBook.cpp:127
+msgid "URL error"
+msgstr "Ошибка URL"
+
+#: FbInternetBook.cpp:140
+msgid "Connect error"
+msgstr "Ошибка подключения"
+
+#: FbInternetBook.cpp:179 FbInternetBook.cpp:214
+msgid "Wrong MD5 sum"
+msgstr "Неверная контрольная сумма файла"
+
+#: FbInternetBook.cpp:196
+msgid "Can't open zip"
+msgstr "Не удалось открыть zip-файл %s"
+
+#: FbInternetBook.cpp:248
+msgid "Download finished"
+msgstr "Загрузка завершена"
+
+#: FbLogStream.cpp:64 FbLogStream.cpp:138
+msgid "Fatal error"
+msgstr "Фатальная ошибка"
+
+#: FbLogStream.cpp:139
+msgid "Program aborted."
+msgstr "Программа прервана."
+
+#: FbMainFrame.cpp:302
+msgid "Info messages"
+msgstr "Информационные сообщения"
+
+#: FbMainFrame.cpp:407
+msgid "Import file"
+msgstr "Импорт файла"
+
+#: FbMainFrame.cpp:407
+msgid "Import files to the library"
+msgstr "Добавить в библиотеку новые файлы"
+
+#: FbMainFrame.cpp:408
+msgid "Import folder"
+msgstr "Импорт папки"
+
+#: FbMainFrame.cpp:408
+msgid "Import folder to the library"
+msgstr "Добавить в библиотеку директорию"
+
+#: FbMainFrame.cpp:411
+msgid " Author: "
+msgstr " Автор: "
+
+#: FbMainFrame.cpp:419
+msgid "Find author"
+msgstr "Поиск автора"
+
+#: FbMainFrame.cpp:422
+msgid " Book: "
+msgstr " Книга: "
+
+#: FbMainFrame.cpp:430
+msgid "Find book by title"
+msgstr "Поиск книги по заголовку"
+
+#: FbMainFrame.cpp:433
+msgid "Hierarchy"
+msgstr "Иерархия"
+
+#: FbMainFrame.cpp:433
+msgid "Hierarchy of authors and series"
+msgstr "Иерархия авторов и серий"
+
+#: FbMainFrame.cpp:434
+msgid "List"
+msgstr "Список"
+
+#: FbMainFrame.cpp:434 FbMainMenu.cpp:102
+msgid "Simple list"
+msgstr "Простой список"
+
+#: FbMainFrame.cpp:436
+msgid "Export to external device"
+msgstr "Запись на внешнее устройство"
+
+#: FbMainFrame.cpp:453
+msgid "Digital books and archives"
+msgstr "Электронные книги и архивы"
+
+#: FbMainFrame.cpp:454
+msgid "Digital books in FB2"
+msgstr "Электронные книги FB2"
+
+#: FbMainFrame.cpp:454
+msgid "Digital books in EPUB"
+msgstr "Электронные книги EPUB"
+
+#: FbMainFrame.cpp:455
+msgid "ZIP archives"
+msgstr "Архивы ZIP"
+
+#: FbMainFrame.cpp:456
+msgid "All files"
+msgstr "Все файлы"
+
+#: FbMainFrame.cpp:460
+msgid "Select archive to add to the library"
+msgstr "Выберите zip-файл для добавления в библиотеку…"
+
+#: FbMainFrame.cpp:471 FbMainMenu.cpp:17
+msgid "Add file"
+msgstr "Добавить файл"
+
+#: FbMainFrame.cpp:534 FbMainMenu.cpp:49
+msgid "Search"
+msgstr "Поиск"
+
+#: FbMainFrame.cpp:568
+msgid "Find title"
+msgstr "Поиск по заголовку"
+
+#: FbMainFrame.cpp:568
+msgid "Input search string:"
+msgstr "Введите строку для поиска:"
+
+#: FbMainFrame.cpp:609
+msgid "This function is not available yet in this version."
+msgstr "Функционал не реализован в данной версии."
+
+#: FbMainFrame.cpp:756
+msgid "File not found: "
+msgstr "Файл не найден: "
+
+#: FbMainFrame.cpp:934
+#, c-format
+msgid "Nothing was found on pattern \"%s\""
+msgstr "Ничего не найдено по шаблону «%s»"
+
+#: FbMainFrame.cpp:935
+msgid "Searching"
+msgstr "Поиск"
+
+#: FbMainMenu.cpp:6
+msgid "&File"
+msgstr "&Файл"
+
+#: FbMainMenu.cpp:7
+msgid "&Edit"
+msgstr "&Правка"
+
+#: FbMainMenu.cpp:8
+msgid "&Library"
+msgstr "&Библиотека"
+
+#: FbMainMenu.cpp:9
+msgid "&Catalog"
+msgstr "&Картотека"
+
+#: FbMainMenu.cpp:10
+msgid "&Books"
+msgstr "К&ниги"
+
+msgid "&Book"
+msgstr "К&нига"
+
+#: FbMainMenu.cpp:11
+msgid "&Window"
+msgstr "&Окно"
+
+#: FbMainMenu.cpp:12
+msgid "&?"
+msgstr "&?"
+
+#: FbMainMenu.cpp:21
+msgid "Exit"
+msgstr "Выход"
+
+#: FbMainMenu.cpp:26
+msgid "Cut"
+msgstr "Вырезать"
+
+#: FbMainMenu.cpp:28
+msgid "Paste"
+msgstr "Вставить"
+
+#: FbMainMenu.cpp:34
+msgid "Delete link"
+msgstr "Удалить ссылку"
+
+#: FbMainMenu.cpp:56
+msgid "Archive"
+msgstr "Архив"
+
+#: FbMainMenu.cpp:65
+msgid "Open recent"
+msgstr "Открыть повторно"
+
+#: FbMainMenu.cpp:69
+msgid "Clear empty variables"
+msgstr "Удалить пустые значения"
+
+#: FbMainMenu.cpp:70
+msgid "Optimize DB"
+msgstr "Реструктуризация БД"
+
+#: FbMainMenu.cpp:71
+msgid "Online update database"
+msgstr "Обновить через интернет"
+
+#: FbMainMenu.cpp:73
+msgid "Options"
+msgstr "Параметры"
+
+#: FbMainMenu.cpp:78
+msgid "Website"
+msgstr "Официальный сайт"
+
+#: FbMainMenu.cpp:85
+msgid "List of books"
+msgstr "Список книг"
+
+#: FbMainMenu.cpp:87
+msgid "Preview area"
+msgstr "Область просмотра"
+
+#: FbMainMenu.cpp:101
+msgid "Hierarchical"
+msgstr "Иерархический"
+
+#: FbMainMenu.cpp:107
+msgid "Standart"
+msgstr "Стандартные"
+
+#: FbMainMenu.cpp:108
+msgid "Compact"
+msgstr "Компактные"
+
+#: FbMainMenu.cpp:109
+msgid "Convex"
+msgstr "Выпуклые"
+
+#: FbMainMenu.cpp:110
+msgid "Buttons"
+msgstr "Кнопочные"
+
+#: FbMainMenu.cpp:112
+msgid "Light"
+msgstr "Легкие"
+
+#: FbMainMenu.cpp:114
+msgid "Studio"
+msgstr "Студия"
+
+#: FbMainMenu.cpp:115
+msgid "Mozilla"
+msgstr "Мозилла"
+
+#: FbMainMenu.cpp:120
+msgid "Right"
+msgstr "Справа"
+
+#: FbMainMenu.cpp:121
+msgid "Bottom"
+msgstr "Внизу"
+
+#: FbMainMenu.cpp:122
+msgid "Not specified"
+msgstr "Отсутствует"
+
+#: FbMainMenu.cpp:127
+msgid "Close window"
+msgstr "Закрыть окно"
+
+#: FbMainMenu.cpp:128
+msgid "Close all"
+msgstr "Закрыть все"
+
+#: FbMainMenu.cpp:130
+msgid "Next"
+msgstr "Следующее"
+
+#: FbMainMenu.cpp:131
+msgid "Previous"
+msgstr "Предыдущее"
+
+#: FbMainMenu.cpp:133
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: FbMainMenu.cpp:134
+msgid "Fullscreen mode"
+msgstr "Полноэкранный режим"
+
+#: FbMainMenu.cpp:135
+msgid "Show log window"
+msgstr "Окно сообщений"
+
+#: FbMainMenu.cpp:136
+msgid "Show status bar"
+msgstr "Строка состояния"
+
+#: FbMenu.cpp:62
+msgid "Size"
+msgstr "Размер"
+
+#: FbMenu.cpp:65
+msgid "Reverse order"
+msgstr "Обратный порядок"
+
+#: FbMenu.cpp:96
+msgid "Classifiers"
+msgstr "Рубрикаторы"
+
+#: FbParsingCtx.cpp:206
+#, c-format
+msgid "Unknown encoding: %s"
+msgstr "Неизвестная кодировка: %s"
+
+#: FbParsingCtx.cpp:246 FbParsingCtx.cpp:434
+#, c-format
+msgid "XML parsing error: '%s' at line %d"
+msgstr "Ошибка чтения XML: '%s' в строке %d"
+
+#: FbUpdateThread.cpp:39
+msgid "Database successfully updated"
+msgstr "Обновление успешно завершено"
+
+#: FbUpdateThread.cpp:68
+msgid "Update collection"
+msgstr "Обновление коллекции"
+
+#: FbUpdateThread.cpp:121
+msgid "Wrong update library type"
+msgstr "Несоответствие типа коллекции"
+
+#: FbUpdateThread.cpp:143
+#, c-format
+msgid "Loaded new %d books"
+msgstr "Добавлено книг: %d"
+
+#: VacuumThread.cpp:11
+msgid "Start SQLite VACUUM"
+msgstr "Запуск SQLite VACUUM"
+
+#: ZipReader.cpp:46
+#, c-format
+msgid "Book not found %s"
+msgstr "Книга не найдена %s"
+
+#: ZipReader.cpp:122
+#, c-format
+msgid "Not found an archive (%s), containing file (%s)."
+msgstr "Не найден архив (%s), содержащий файл (%s)."
+
+#: ZipReader.cpp:136
+#, c-format
+msgid "Not found file %s"
+msgstr "Файл не найден %s"
+
+msgid "Zoom In"
+msgstr "Увеличить масштаб"
+
+msgid "Zoom Out"
+msgstr "Уменьшить масштаб"
+
+msgid "Show page header"
+msgstr "Отображать колонтитул"
+
+msgid "Page header"
+msgstr "Колонтитул"
+
+msgid "Hyphenation"
+msgstr "Перенос слов"
+
+msgid "Use algorithmic hyphenation"
+msgstr "Алгоритмические переносы"
+
+msgid "View mode"
+msgstr "Режим просмотра"
+
+msgid "Display two pages"
+msgstr "Отображать две страницы"
+
+msgid "Find text..."
+msgstr "Найти текст..."
+
+msgid "Use builtin CoolReader3"
+msgstr "Использовать встроенный CoolReader3"
+
+msgid "Draws light horizontal rules between rows"
+msgstr "Отображать горизонтальные линии сетки"
+
+msgid "Draws light vertical rules between columns"
+msgstr "Отображать вертикальные линии сетки"
+
+msgid "Show deleted"
+msgstr "Показывать удаленные"
+
+msgid "Save file as..."
+msgstr "Сохранить файл как..."
+
+msgid "Copy link address"
+msgstr "Скопировать адрес ссылки"
+
+msgid "Show in folder"
+msgstr "Показать в папке"
+
+msgid "Annotation"
+msgstr "Аннотация"
+
+msgid "Maximum length of file information"
+msgstr "Максимальная длина информации о файле"
+
+msgid "Copy URL"
+msgstr "Копировать URL"
+

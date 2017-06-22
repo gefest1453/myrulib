@@ -1,0 +1,1654 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-11 21:59+0300\n"
+"PO-Revision-Date: 2010-06-04 11:01+0100\n"
+"Last-Translator: reels reels@seznam.cz\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)"
+">=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+msgid " Author: "
+msgstr " Autor: "
+
+msgid " Book: "
+msgstr " Kniha: "
+
+msgid "\"Series name\" field is empty"
+msgstr "Nevyplněný název série"
+
+msgid "\"Surname\" field is empty"
+msgstr "Není vyplněno příjmení autora"
+
+msgid "#"
+msgstr "č."
+
+msgid "&?"
+msgstr "&?"
+
+msgid "&Authors"
+msgstr "Autoři"
+
+msgid "&Book"
+msgstr "Kniha"
+
+msgid "&Books"
+msgstr "Knihy"
+
+msgid "&Catalog"
+msgstr "Karty"
+
+msgid "&Edit"
+msgstr "&Úpravy"
+
+msgid "&File"
+msgstr "Soubor"
+
+msgid "&Library"
+msgstr "Databáze"
+
+msgid "&Series"
+msgstr "Série"
+
+msgid "&Tools"
+msgstr "Nástroje"
+
+msgid "&View"
+msgstr "Zobrazit"
+
+msgid "&Window"
+msgstr "Okno"
+
+msgid "(Misc.)"
+msgstr "(různé)"
+
+msgid "(no Author)"
+msgstr "(bez autora)"
+
+msgid "A / Author / Book"
+msgstr "А / Autor / Kniha"
+
+msgid "A / Author / Series / #_book"
+msgstr "А / Autor / Série / č._Kniha"
+
+msgid "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЭЮЯ"
+msgstr "ABCČDĎEFGHIJKLMNOPQRŘSŠTŤUVWXYZŽ"
+
+msgid "About"
+msgstr "O programu..."
+
+msgid "Accounting"
+msgstr "Účetnictví"
+
+msgid "Action"
+msgstr "Akční příběhy"
+
+msgid "Action mystery"
+msgstr "Drsná škola"
+
+msgid "Action romance novels"
+msgstr "Milostné detektivní"
+
+msgid "Add alternative %s"
+msgstr "Přidáno alternativní umístění %s"
+
+msgid "Add author"
+msgstr "Přidat autora"
+
+msgid "Add comments"
+msgstr "Vložit komentář"
+
+msgid "Add file"
+msgstr "Import souborů"
+
+msgid "Add folder"
+msgstr "Import adresářů"
+
+msgid "Add folder?"
+msgstr "Přidat záložku?"
+
+msgid "Add to favourites"
+msgstr "Přidat k oblíbeným"
+
+msgid "Add to folders"
+msgstr "Přidat do záložky"
+
+msgid "Address:"
+msgstr "Adresa:"
+
+msgid "Adventures"
+msgstr "Dobrodružné"
+
+msgid "Adventures about Indians"
+msgstr "Indiánky"
+
+msgid "All"
+msgstr "Všechno"
+
+msgid "All collected authors"
+msgstr "Všichni autoři v databázi"
+
+msgid "All files"
+msgstr "Všechny soubory"
+
+msgid "Alternative History"
+msgstr "Alternativní historie"
+
+msgid "Ancient literature"
+msgstr "Starověká literatura"
+
+msgid "and all of author's books (%d pcs.)?"
+msgstr "a všechny jeho knihy (%d ks)?"
+
+msgid "Antique"
+msgstr "Starověká literatura"
+
+msgid "Antique Literature"
+msgstr "Antická literatura"
+
+msgid "Append"
+msgstr "Přidat"
+
+msgid "Append classifier"
+msgstr "Přidat klasifikátor"
+
+msgid "Append export script"
+msgstr "Přidat skript pro export"
+
+msgid "Append series"
+msgstr "Přidat sérii"
+
+msgid "Archive"
+msgstr "Archív"
+
+msgid "Art and Design"
+msgstr "Umění a design"
+
+msgid "Associated application not found"
+msgstr "Přiřazená aplikace pro otevření nenalezena"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Author / Book"
+msgstr "Autor / Kniha"
+
+msgid "Author / Series / #_book"
+msgstr "Autor / Série / č._Kniha"
+
+msgid "Author not selected by replacement."
+msgstr "Není vybraný autor pro nahrazení."
+
+msgid "Authors"
+msgstr "Autoři"
+
+msgid "Authors count:"
+msgstr "Počet autorů:"
+
+msgid "Authors counting"
+msgstr "Počet autorů"
+
+msgid "Automatically begin files downloading"
+msgstr "Automaticky začít stahovat soubory"
+
+msgid "Autor with same details already exists"
+msgstr "Autor se stejnými detaily již existuje"
+
+msgid "Background colour"
+msgstr "Barva pozadí"
+
+msgid "Banking"
+msgstr "Bankovnictví"
+
+msgid "Biographies and Memoirs"
+msgstr "Biografie a memoáry"
+
+msgid "Biology"
+msgstr "Biologie"
+
+msgid "Book file MD5 sum"
+msgstr "Kontrolní součet souboru MD5"
+
+msgid "Book language"
+msgstr "Jazyk knihy"
+
+msgid "Book not found %s"
+msgstr "Kniha nenalezena %s"
+
+msgid "Book title"
+msgstr "Název knihy"
+
+msgid "Bookmarks"
+msgstr "Záložky"
+
+msgid "Bottom"
+msgstr "Dole"
+
+msgid "Business literature"
+msgstr "Podnikání"
+
+msgid "Buttons"
+msgstr "Vystouplá tlačítka"
+
+msgid "Calendar"
+msgstr "Kalendář"
+
+msgid "Can't open directory %s"
+msgstr "Nelze otevřít adresář %s"
+
+msgid "Can't open zip"
+msgstr "Nelze otevřít zip %s"
+
+msgid "can't delete file %s"
+msgstr "Nelze odstranit soubor %s"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Change author"
+msgstr "Změnit autora"
+
+msgid "Change folder?"
+msgstr "Změnit záložku?"
+
+msgid "Chemistry"
+msgstr "Chemie"
+
+msgid "Childern prose"
+msgstr "Dětská próza"
+
+msgid "Children action"
+msgstr "Dětské detektivky"
+
+msgid "Children adventures"
+msgstr "Dětské dobrodružné"
+
+msgid "Children education"
+msgstr "Dětské naučné"
+
+msgid "Children fiction"
+msgstr "Dětská sci-fi"
+
+msgid "Children literature"
+msgstr "Pro děti"
+
+msgid "Children poetry"
+msgstr "Dětská poezie"
+
+msgid "Classic mystery"
+msgstr "Klasické detektivky"
+
+msgid "Classical prose"
+msgstr "Klasická próza"
+
+msgid "Classifier"
+msgstr "Klasifikátor"
+
+msgid "Classifier contents"
+msgstr "Obsah klasifikátoru"
+
+msgid "Classifier name"
+msgstr "Jméno klasifikátoru"
+
+msgid "Classifiers"
+msgstr "Klasifikátory"
+
+msgid "Clear"
+msgstr "Nehodnotit"
+
+msgid "Clear empty variables"
+msgstr "Odstranit prázdné hodnoty"
+
+msgid "Clear filter"
+msgstr "Vypnout filtr"
+
+msgid "Clear the log window when it closes"
+msgstr "Smazat log při zavření okna"
+
+msgid "Close"
+msgstr "Zavřít"
+
+msgid "Close all"
+msgstr "Zavřít všechny"
+
+msgid "Close window"
+msgstr "Zavřít kartu"
+
+msgid "Code"
+msgstr "Kód"
+
+msgid "Collection info"
+msgstr "Informace o databázi"
+
+msgid "Column"
+msgstr "Sloupec"
+
+msgid "Columns"
+msgstr "Sloupce"
+
+msgid "Comment:"
+msgstr "Komentář:"
+
+msgid "Comments"
+msgstr "Komentáře"
+
+msgid "Compact"
+msgstr "Kompaktní"
+
+msgid "Computer hardware"
+msgstr "Hardware"
+
+msgid "Computer literature"
+msgstr "Počítače"
+
+msgid "Confirmation"
+msgstr "Potvrzení"
+
+msgid "Connect error"
+msgstr "Chyba připojení"
+
+msgid "Convex"
+msgstr "Konvexní"
+
+msgid "Cooking"
+msgstr "Vaření"
+
+msgid "Cool Reader options"
+msgstr "Nastavení Cool Readeru"
+
+msgid "Copy"
+msgstr "Kopírovat"
+
+msgid "Corporate culture"
+msgstr "Podniková kultura"
+
+msgid "Count"
+msgstr "Počet"
+
+msgid "Counterculture"
+msgstr "Kulturní opozice"
+
+msgid "Create"
+msgstr "Vytvořit"
+
+msgid "Create database"
+msgstr "Vytvořit databázi"
+
+msgid "Create filter"
+msgstr "Vytvořit filtr"
+
+msgid "Create full text search index"
+msgstr "Vytvořit index textového vyhledávání"
+
+msgid "Create new classifier"
+msgstr "Vytvořit nová klasifikátor"
+
+msgid "Create new database"
+msgstr "Vytvořit novou databázi"
+
+msgid "Criminal mystery"
+msgstr "Kriminální záhady"
+
+msgid "Criticism"
+msgstr "Kritika"
+
+msgid "Cultural"
+msgstr "Kultura"
+
+msgid "Customize"
+msgstr "Přizpůsobení"
+
+msgid "Cut"
+msgstr "Vyjmout"
+
+msgid "Cyberpunk"
+msgstr "Kyberpunk"
+
+msgid "Database file (*.db)|*.db|All files (*.*)|*.*"
+msgstr "Soubor databáze (*.db)|*.db|Všechny soubory (*.*)|*.*"
+
+msgid "Database successfully updated"
+msgstr "Databáze byla úspěšně aktualizována"
+
+msgid "Database version mismatch"
+msgstr "Nesoulad verzí databází"
+
+msgid "Databases"
+msgstr "Databáze"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Delete"
+msgstr "Odstranit"
+
+msgid "Delete author"
+msgstr "Odstranit autora"
+
+msgid "Delete book"
+msgstr "Odstranit knihu"
+
+msgid "Delete bookmark"
+msgstr "Odstranit záložku"
+
+msgid "Delete classifier"
+msgstr "Odstranit klasifikátor"
+
+msgid "Delete download query"
+msgstr "Odstranit frontu stahování"
+
+msgid "Delete downloaded files when download query removed"
+msgstr "Smazat stažené soubory při odstranění fronty ze seznamu"
+
+msgid "Delete export script"
+msgstr "Odstranit skript exportu"
+
+msgid "Delete file type"
+msgstr "Odstranit typ souboru"
+
+msgid "Delete files when you delete a book"
+msgstr "Smazat soubory při smazání knihy"
+
+msgid "Delete folder \"%s\"?"
+msgstr "Odstranit záložku «%s»?"
+
+msgid "Delete folder?"
+msgstr "Odstranit záložku?"
+
+msgid "Delete link"
+msgstr "Odstranit odkaz"
+
+msgid "Delete selected books (%d pcs)?"
+msgstr "Odstranit označené knihy (%d ks)?"
+
+msgid "Delete series \"%s\"?"
+msgstr "Odstranit sérii «%s»?"
+
+msgid "Delete temporary files when you exit the program"
+msgstr "Smazat dočasné soubory při ukončení programu"
+
+msgid "Deleted books"
+msgstr "Smazané knihy"
+
+msgid "Destination folder not found"
+msgstr "Cílový adresář nebyl nalezen"
+
+msgid "Destination folder:"
+msgstr "Cílový adresář:"
+
+msgid "Detailed records"
+msgstr "Podrobné záznamy"
+
+msgid "Detective Fiction"
+msgstr "Detektivní sci-fi"
+
+msgid "Dialog windows:"
+msgstr "Okna dialogů:"
+
+msgid "Dictionaries"
+msgstr "Slovníky"
+
+msgid "Digital books and archives"
+msgstr "Elektronické knihy a archívy"
+
+msgid "Digital books in FB2"
+msgstr "Elektronické knihy FB2"
+
+msgid "Digital books in EPUB"
+msgstr "Elektronické knihy EPUB"
+
+msgid "Directories"
+msgstr "Seznamy"
+
+msgid "Documentary literature"
+msgstr "Dokumenty"
+
+msgid "Down"
+msgstr "Dolů"
+
+msgid "Download"
+msgstr "Stahování"
+
+msgid "Download a file"
+msgstr "Stáhnout soubor"
+
+msgid "Download book file?"
+msgstr "Stáhnout knihu?"
+
+msgid "Download collection"
+msgstr "Stáhnout kolekci"
+
+msgid "Download error"
+msgstr "Chyba stahování"
+
+msgid "Download finished"
+msgstr "Stahování dokončeno"
+
+msgid "Download timout (seconds):"
+msgstr "Pauzy při stahování (vt.):"
+
+msgid "Download via browser"
+msgstr "Stáhnout v prohlížeči"
+
+msgid "Downloaded"
+msgstr "Staženo"
+
+msgid "Downloads"
+msgstr "Stahování knih"
+
+msgid "Dramaturgy"
+msgstr "Dramaturgie"
+                                  
+msgid "Dublicate author: %s %s"
+msgstr "Duplicitní autor: %s %s"
+
+msgid "Economics"
+msgstr "Ekonomika"
+
+msgid "Economics reference book"
+msgstr "Ekonomické příručky"
+
+msgid "Economy, Business"
+msgstr "Ekomomie, obchod"
+
+msgid "Encyclopedias"
+msgstr "Encyklopedie"
+
+msgid "Engineering"
+msgstr "Technika"
+
+msgid "Enter collection filename"
+msgstr "Zadejte jméno souboru databáze"
+
+msgid "Entertainment"
+msgstr "Zábava"
+
+msgid "Epic fantasy"
+msgstr "Epická sci-fi"
+
+msgid "Erotic novels"
+msgstr "Erotika"
+
+msgid "Erotic, sex"
+msgstr "Erotika, sex"
+
+msgid "Esoterica"
+msgstr "Duchovno"
+
+msgid "European ancient literature"
+msgstr "Starověké evropské"
+
+msgid "Exclude files missing from the collection"
+msgstr "Vyjmout z databáze nenalezené soubory"
+
+msgid "Executable files"
+msgstr "Spustitelné soubory"
+
+msgid "Exit"
+msgstr "Konec"
+
+msgid "Export"
+msgstr "Export"
+
+msgid "Export aborted by user"
+msgstr "Export přerušen uživatelem"
+
+msgid "Export As..."
+msgstr "Export ve formátu:"
+
+msgid "Export books"
+msgstr "Export knih"
+
+msgid "Export completed successfully"
+msgstr "Export úspěšně dokončen"
+
+msgid "Export completed with %d errors"
+msgstr "Export dokončen s %d chybami"
+
+msgid "Export error"
+msgstr "Chyba exportu"
+
+msgid "Export script"
+msgstr "Skript pro export"
+
+msgid "Export to external device"
+msgstr "Export knih"
+
+msgid "Export to external storage"
+msgstr "Export do adresáře"
+
+msgid "Exported collection structure"
+msgstr "Struktura exportu z databáze"
+
+msgid "Extension"
+msgstr "Typ"
+
+msgid "Extract file"
+msgstr "Rozbalit soubor"
+
+msgid "FB2 and FBD not found %s"
+msgstr "Soubory FB2 a FBD nenalezeny"
+
+msgid "Fantasy"
+msgstr "Fantasy"
+
+msgid "Fatal error"
+msgstr "Fatální chyba"
+
+msgid "Fault"
+msgstr "Chyba"
+
+msgid "Favorites"
+msgstr "Oblíbené"
+
+msgid "Fiction"
+msgstr "Sci-fi, fantasy"
+
+msgid "Field: book"
+msgstr "Pole: kniha"
+
+msgid "Field: code"
+msgstr "Pole: code"
+
+msgid "Field: info"
+msgstr "Pole: info"
+
+msgid "Field: name"
+msgstr "Pole: jméno"
+
+msgid "Field: parent"
+msgstr "Pole: parent"
+
+msgid "Fighting fantasy"
+msgstr "Akční sci-fi"
+
+msgid "File already exists %s"
+msgstr "Soubor již existuje %s"
+
+msgid "File download"
+msgstr "Stažení souboru"
+
+msgid "File extension"
+msgstr "Typ souboru"
+
+msgid "File is missing"
+msgstr "Soubor neexistuje"
+
+msgid "File name"
+msgstr "Název souboru"
+
+msgid "filename"
+msgstr "název_souboru"
+
+msgid "File name extension"
+msgstr "Přípona souboru"
+
+msgid "File name without path and extension"
+msgstr "Název souboru bez cesty a přípony"
+
+msgid "File name:"
+msgstr "Jméno souboru:"
+
+msgid "File not found: "
+msgstr "Soubor nebyl nalezen"
+
+msgid "File types"
+msgstr "Typy souborů"
+
+msgid "Filter setup..."
+msgstr "Nastavení filtru..."
+
+msgid "Filter settings"
+msgstr "Nastavení filtru"
+
+msgid "Find"
+msgstr "Hledat"
+
+msgid "Find author"
+msgstr "Hledat autora"
+
+msgid "Find book by title"
+msgstr "Hledat knihu"
+
+msgid "Find series by name"
+msgstr "Najít sérii podle názvu"
+
+msgid "Find title"
+msgstr "Hledat knihu"
+
+msgid "Finish import %d file(s)"
+msgstr "Dokončen import %d soubor(ů)"
+
+msgid "First letter of author name"
+msgstr "První písmeno jména autora"
+
+msgid "Finish import directory %s"
+msgstr "Dokončen import adresáře %s"
+
+msgid "Finish scan directory %s"
+msgstr "Dokončeno skenování adresáře %s"
+
+msgid "First reciept:"
+msgstr "První zápis:"
+
+msgid "Folder to save downloads:"
+msgstr "Adresář pro stahované soubory:"
+
+msgid "Folders"
+msgstr "Adresáře"
+
+msgid "Font colour"
+msgstr "Barva písma"
+
+msgid "Font size"
+msgstr "Velikost písma"
+
+msgid "Fonts"
+msgstr "Fonty"
+
+msgid "Format of exporting collection"
+msgstr "Formát exportu z databáze"
+
+msgid "Full author name"
+msgstr "Celé jméno autora"
+
+msgid "Full file path with name and extension"
+msgstr "Cesta k souboru včetně jména a přípony"
+
+msgid "Full file path without extension"
+msgstr "Cesta k souboru bez přípony"
+
+msgid "Fullscreen mode"
+msgstr "Na celou obrazovku"
+
+msgid "Gardening"
+msgstr "Zahradničení"
+
+msgid "General"
+msgstr "Obecné"
+
+msgid "Genre"
+msgstr "Žánr"
+
+msgid "Genres"
+msgstr "Žánry"
+
+msgid "Geo guides"
+msgstr "Průvodce"
+
+msgid "Global economy"
+msgstr "Globální ekonomie"
+
+msgid ""
+"HTML files (*.html; *.htm)|*.html;*.HTML;*.HTM;*.htm|All files (*.*)|*.*"
+msgstr ""
+"Soubory HTML (*.html; *.htm)|*.html;*.HTML;*.HTM;*.htm|Všechny soubory (*.*)|"
+"*.*"
+
+msgid "Handmade"
+msgstr "Udělej si sám"
+
+msgid "Header colour"
+msgstr "Barva záhlaví"
+
+msgid "Header font"
+msgstr "Písmo záhlaví"
+
+msgid "Health"
+msgstr "Zdraví"
+
+msgid "Heroic fantasy"
+msgstr "Heroická sci-fi"
+
+msgid "Hide log window"
+msgstr "Skrýt log"
+
+msgid "Hierarchical"
+msgstr "Členěný seznam"
+
+msgid "Hierarchy"
+msgstr "Členěný seznam"
+
+msgid "Hierarchy of authors and series"
+msgstr "Členění na autory a série"
+
+msgid "Historical adventures"
+msgstr "Historické dobrodružné"
+
+msgid "Historical mystery"
+msgstr "Historické záhady"
+
+msgid "Historical prose"
+msgstr "Historická próza"
+
+msgid "Historical romance novels"
+msgstr "Milostné historické"
+
+msgid "History"
+msgstr "Historie"
+
+msgid "Hobbies and Crafts"
+msgstr "Hobby a řemesla"
+
+msgid "Home and Family"
+msgstr "Dům a rodina"
+
+msgid "Horror and Mysticism"
+msgstr "Horory a mystika"
+
+msgid "Host name:"
+msgstr "Internetová adresa:"
+
+msgid "Household"
+msgstr "Domácnost"
+
+msgid "Humorous Fiction"
+msgstr "Humorná sci-fi"
+
+msgid "Humorous poetry"
+msgstr "Humorná poezie"
+
+msgid "Humorous prose"
+msgstr "Satira"
+
+msgid "Humour"
+msgstr "Humor"
+
+msgid "Import file"
+msgstr "Import souborů"
+
+msgid "Import file %s"
+msgstr "Import souboru %s"
+
+msgid "Import files to the library"
+msgstr "Import souborů"
+
+msgid "Import folder"
+msgstr "Import adresářů"
+
+msgid "Import folder to the library"
+msgstr "Import adresářů"
+
+msgid "Import subdirectory %s"
+msgstr "Import podadresáře %s"
+
+msgid "Import zip %s"
+msgstr "Import ZIP souboru %s"
+
+msgid "Import zip entry %s"
+msgstr "Import ZIP vstupu %s"
+
+msgid "Industries"
+msgstr "Průmysl"
+
+msgid "Info messages"
+msgstr "Log"
+
+msgid "Information"
+msgstr "Informace"
+
+msgid "Information about collection"
+msgstr "Informace o databázi"
+
+msgid "Information:"
+msgstr "Informace, náhled:"
+
+msgid "Input name of new folder:"
+msgstr "Zadejte jméno nové záložky:"
+
+msgid "Input new filetype"
+msgstr "Vložte nový typ souboru"
+
+msgid "Input new folder name:"
+msgstr "Zadejte nové jméno záložky:"
+
+msgid "Input search string:"
+msgstr "Vložte hledaný výraz:"
+
+msgid "Interline space"
+msgstr "Řádkování"
+
+msgid "Internal book code"
+msgstr "Vnitřní kód knihy"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Ironic mystery"
+msgstr "Humorné detektivky"
+
+msgid "Job hunting"
+msgstr "Kariéra"
+
+msgid "Jokes"
+msgstr "Vtipy"
+
+msgid "Jump to author"
+msgstr "Přejít k autorovi"
+
+msgid "Jump to series"
+msgstr "Přejít k sérii"
+
+msgid "Key type"
+msgstr "Typ klíče"
+
+msgid "Language"
+msgstr "Jazyk"
+
+msgid "Last reciept:"
+msgstr "Poslední zápis:"
+
+msgid "Latin alphabet"
+msgstr "Latinka"
+
+msgid "Law"
+msgstr "Právo"
+
+msgid "Library books (web)"
+msgstr "Knihy na webu"
+
+msgid "Library folder:"
+msgstr "Výchozí adresář s knihami:"
+
+msgid "Library name:"
+msgstr "Jméno databáze:"
+
+msgid "Library options"
+msgstr "Parametry databáze"
+
+msgid "Light"
+msgstr "Plochá tlačítka"
+
+msgid "Limit the maximum size of lists:"
+msgstr "Omezit velikost seznamů na:"
+
+msgid "Linguistics"
+msgstr "Lingvistika"
+
+msgid "List"
+msgstr "Seznam"
+
+msgid "List of authors and books:"
+msgstr "Seznam autorů a knih:"
+
+msgid "List of books"
+msgstr "Obsah tabulky"
+
+msgid "List of genres"
+msgstr "Seznam žánrů"
+
+msgid "Load images for author's description"
+msgstr "Načíst obrázky pro popis autorů"
+
+msgid "Loaded new %d books"
+msgstr "Přidáno %d nových knih"
+
+msgid "Local books"
+msgstr "Lokální knihy"
+
+msgid "Love science fiction"
+msgstr "Romantická sci-fi"
+
+msgid "Main font"
+msgstr "Písmo textu"
+
+msgid "Management"
+msgstr "Management"
+
+msgid "Maniacs"
+msgstr "Maniaci"
+
+msgid "Manuals"
+msgstr "Manuály"
+
+msgid "Marketing"
+msgstr "Marketing"
+
+msgid "Mathematics"
+msgstr "Matematika"
+
+msgid "Maximum width of the cover image"
+msgstr "Maximální šířka obrázku obálky"
+
+msgid "MD5 Sum"
+msgstr "Součet MD5"
+
+msgid "Medical"
+msgstr "Medicína"
+
+msgid "Merge authors?"
+msgstr "Sloučit autory?"
+
+msgid "Merge series?"
+msgstr "Sloučit série?"
+
+msgid "Middle-Name"
+msgstr "Druhé jméno"
+
+msgid "Modern prose"
+msgstr "Moderní próza"
+
+msgid "Modern romance novels"
+msgstr "Milostné romány"
+
+msgid "Modify"
+msgstr "Změnit"
+
+msgid "Modify export script"
+msgstr "Změnit skript exportu"
+
+msgid "Modify series"
+msgstr "Změnit sérii"
+
+msgid "Move down in queue"
+msgstr "Přesunout ve frontě dolů"
+
+msgid "Move field down"
+msgstr "Přesunout pole dolů"
+
+msgid "Move field up"
+msgstr "Přesunout pole nahoru"
+
+msgid "Move up in queue"
+msgstr "Přesunout ve frontě nahoru"
+
+msgid "Mozilla"
+msgstr "Мozilla"
+
+msgid "My folders"
+msgstr "Moje záložky"
+
+msgid "Mysteries and Thrillers"
+msgstr "Detektivky a thrillery"
+
+msgid "Mystery"
+msgstr "Detektivky"
+
+msgid "Myths. Legends. Epic."
+msgstr "Báje, legendy, eposy"
+
+msgid "Name"
+msgstr "Jméno"
+
+msgid "Nature and Animals"
+msgstr "Příroda a zvířata"
+
+msgid "Need a new version %d, but used the old %d."
+msgstr "Je třeba nová verze %d, použita je stará %d"
+
+msgid "Network"
+msgstr "Internet"
+
+msgid "Next"
+msgstr "Následující"
+
+msgid "No genre"
+msgstr "Bez žánru"
+
+msgid "Not found an archive (%s), containing file (%s)."
+msgstr "Nebyl nalezen archív (%s), obsahující soubor (%s)."
+
+msgid "Not found file %s"
+msgstr "Nenalezen soubor %s"
+
+msgid "Not selected any book"
+msgstr "Není vybraná žádná kniha"
+
+msgid "Not specified"
+msgstr "Bez náhledu"
+
+msgid "Nothing was found on pattern \"%s\""
+msgstr "Výraz «%s» nebyl nalezen"
+
+msgid "Num."
+msgstr "Počet"
+
+msgid "Number in sequence"
+msgstr "Pořadí knihy v sérii"
+
+msgid "Number of attempts:"
+msgstr "Počet pokusů"
+
+msgid "Number of digits in the number"
+msgstr "Počet číslic v číslování"
+
+msgid "OS and Network"
+msgstr "OS a sítě"
+
+msgid "Online authors page"
+msgstr "Autor na webu"
+
+msgid "Online books page"
+msgstr "Online knihy na webu"
+
+msgid "Online update database"
+msgstr "Aktualizovat databázi online"
+
+msgid "Open..."
+msgstr "Otevřít..."
+
+msgid "Open (or create) collection"
+msgstr "Otevřít (vytvořit) databázi"
+
+msgid "Open (or create) local collection"
+msgstr "Otevřít (vytvořit) lokální databázi"
+
+msgid "Open book"
+msgstr "Otevřít knihu"
+
+msgid "Open database"
+msgstr "Otevřít databázi"
+
+msgid "Open recent"
+msgstr "Otevřít předcházející"
+
+msgid "Optimize DB"
+msgstr "Optimalizovat databázi"
+
+msgid "Optimize database?"
+msgstr "Optimalizovat databázi?"
+
+msgid "Options"
+msgstr "Možnosti"
+
+msgid "Oriental ancient literature"
+msgstr "Starověké orientální"
+
+msgid "Other"
+msgstr "Ostatní"
+
+msgid "Page"
+msgstr "Stránka"
+
+msgid "Page header"
+msgstr "Záhlaví"
+
+msgid "Paper work"
+msgstr "Administrativa"
+
+msgid "Password:"
+msgstr "Heslo:"
+
+msgid "Paste"
+msgstr "Vložit"
+
+msgid "PC, Internet"
+msgstr "Počítače, internet"
+
+msgid "Personal finance"
+msgstr "Osobní finance"
+
+msgid "Pets"
+msgstr "Domácí zvířata"
+
+msgid "Philosophy"
+msgstr "Filosofie"
+
+msgid "Physics"
+msgstr "Fyzika"
+
+msgid "Poetry"
+msgstr "Poezie"
+
+msgid "Poetry, dramaturgy"
+msgstr "Poezie, dramaturgie"
+
+msgid "Police mystery"
+msgstr "Policejní příběhy"
+
+msgid "Political mystery"
+msgstr "Politické drama"
+
+msgid "Politology"
+msgstr "Politologie"
+
+msgid "Popular business"
+msgstr "Obchod populárně"
+
+msgid "Preview area"
+msgstr "Oblast náhledu"
+
+msgid "Previous"
+msgstr "Předchozí"
+
+msgid "Process only new files"
+msgstr "Zpracovat pouze nové soubory"
+
+msgid "Processing collection"
+msgstr "Zpracování databáze"
+
+msgid "Processing file:"
+msgstr "Zpracování souboru:"
+
+msgid "Processing folder:"
+msgstr "Zpracování adresáře:"
+
+msgid "Program"
+msgstr "Otevřít v programu"
+
+msgid "Program aborted."
+msgstr "Ukončení programu."
+
+msgid "Program settings"
+msgstr "Nastavení programu"
+
+msgid "Programming"
+msgstr "Programování"
+
+msgid "Properties"
+msgstr "Vlastnosti"
+
+msgid "Prose"
+msgstr "Próza"
+
+msgid "Prose military"
+msgstr "Militaria"
+
+msgid "Psychology"
+msgstr "Psychologie"
+
+msgid "Publicism"
+msgstr "Publicistika"
+
+msgid "Queue"
+msgstr "Fronta"
+
+msgid "Rate this book"
+msgstr "Ohodnotit knihu"
+
+msgid "Rating"
+msgstr "Hodnocení"
+
+msgid "Ready"
+msgstr "Hotovo"
+
+msgid "Real estate"
+msgstr "Reality"
+
+msgid "Rebuild the list of genres"
+msgstr "Aktualizovat seznam žánrů"
+
+msgid "Redirect"
+msgstr "Přesměrovat"
+
+msgid "References"
+msgstr "Lexikony"
+
+msgid "Religion"
+msgstr "Náboženství"
+
+msgid "Religion and Spirituality"
+msgstr "Náboženství a duchovno"
+
+msgid "Religious"
+msgstr "Náboženství"
+
+msgid "Religious Literature"
+msgstr "Ostatní církevní"
+
+msgid "Remarks"
+msgstr "Poznámky"
+
+msgid "Remove comment?"
+msgstr "Odstranit komentář?"
+
+msgid "Remove download"
+msgstr "Odstranit stažené"
+
+msgid "Removing"
+msgstr "Vyjmout"
+
+msgid "Replace"
+msgstr "Nahradit"
+
+msgid "Replace author"
+msgstr "Nahradit autora"
+
+msgid "Replace spaces by underscores"
+msgstr "Nahradit mezery podtržítky"
+
+msgid "Reset fonts settings"
+msgstr "Výchozí nastavení fontů"
+
+msgid "Retry download"
+msgstr "Obnovit stahování"
+
+msgid "Reverse order"
+msgstr "Opačné pořadí"
+
+msgid "Right"
+msgstr "Vpravo"
+
+msgid "Romance"
+msgstr "Romance"
+
+msgid "Run a full scan for library files"
+msgstr "Spustit úplné vyhledávání souborů"
+
+msgid "Russian Classical prose"
+msgstr "Ruská próza"
+
+msgid "Russian ancient literature"
+msgstr "Starověké ruské"
+
+msgid "Russian aplhabet"
+msgstr "Azbuka"
+
+msgid "Save..."
+msgstr "Uložit..."
+
+msgid "Save full path of the file when importing"
+msgstr "Uložit cestu k souboru při importu"
+
+msgid "Scan zip %s"
+msgstr "Skenování ZIP souboru %s"
+
+msgid "Science Fiction"
+msgstr "Sci-fi"
+
+msgid "Science, Education"
+msgstr "Věda, vzdělání"
+
+msgid "Scientific literature"
+msgstr "Naučná literatura"
+
+msgid "Scripts"
+msgstr "Skripty"
+
+msgid "Sea adventures"
+msgstr "Dobrodružství na moři"
+
+msgid "Search"
+msgstr "Hledat knihu"
+
+msgid "Search template"
+msgstr "Šablona pro vyhledávání"
+
+msgid "Searching"
+msgstr "Vyhledávání"
+
+msgid "Select a destination folder"
+msgstr "Výběr cílového adresáře"
+
+msgid "Select a file to export report"
+msgstr "Výběr souboru pro export přehledu"
+
+msgid "Select action:"
+msgstr "Výběr akce:"
+
+msgid "Select all"
+msgstr "Označit vše"
+
+msgid "Select archive to add to the library"
+msgstr "Zvolte soubor(y) pro import do databáze"
+
+msgid "Select folder"
+msgstr "Vyberte adresář"
+
+msgid "Select folder to recursive import"
+msgstr "Zvolte výchozí adresář pro import knih do databáze"
+
+msgid "Select the application to view files"
+msgstr "Zvolte aplikaci pro otevírání tohoto typu souboru"
+
+msgid "Self-improvement"
+msgstr "Sebezdokonalování"
+
+msgid "Sequence name"
+msgstr "Název série"
+
+msgid "Ser."
+msgstr "Série"
+
+msgid "Series"
+msgstr "Série"
+
+msgid "Series aleready exists"
+msgstr "Tato série již existuje"
+
+msgid "Series name:"
+msgstr "Název série:"
+
+msgid "Server error"
+msgstr "Chyba serveru"
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "Short-cut author name"
+msgstr "Zkrácené jméno autora"
+
+msgid "Short description:"
+msgstr "Krátký popis:"
+
+msgid "Short romance novels"
+msgstr "Krátké romance"
+
+msgid "Show books by allocation"
+msgstr "Výběr knih podle umístění"
+
+msgid "Show log window"
+msgstr "Zobrazit log"
+
+msgid "Show page header"
+msgstr "Zobrazovat záhlaví"
+
+msgid "Show status bar"
+msgstr "Zobrazit stavový řádek"
+
+msgid "Simple list"
+msgstr "Jednoduchý seznam"
+
+msgid "Size"
+msgstr "Velikost"
+
+msgid "Size, byte"
+msgstr "Velikost, byte"
+
+msgid "Size, Kb"
+msgstr "Velikost, Kb"
+
+msgid "Skip entry %s"
+msgstr "Přeskočen vstup %s"
+
+msgid "Skip file %s"
+msgstr "Přeskočen soubor %s"
+
+msgid "Small business"
+msgstr "Drobné podnikání"
+
+msgid "Socio-psychological fiction"
+msgstr "Psychologická sci-fi"
+
+msgid "Software"
+msgstr "Software"
+
+msgid "Sort by"
+msgstr "Seřadit podle"
+
+msgid "Soviet Classical prose"
+msgstr "Sovětská próza"
+
+msgid "Space Fiction"
+msgstr "Vesmírná sci-fi"
+
+msgid "Sport"
+msgstr "Sport"
+
+msgid "Spy mystery"
+msgstr "Špionážní romány"
+
+msgid "Standart"
+msgstr "Standardní"
+
+msgid "Start"
+msgstr "Start"
+
+msgid "Start downloading"
+msgstr "Zahájit stahování"
+
+msgid "Start import %d file(s)"
+msgstr "Zahájit import %d soubor(ů)"
+
+msgid "Start import directory %s"
+msgstr "Zahájit import adresáře %s"
+
+msgid "Start scan directory %s"
+msgstr "Zahájit skenování adresáře %s"
+
+msgid "Start SQLite VACUUM"
+msgstr "Zahájit SQLite VACUUM"
+
+msgid "Stock"
+msgstr "Burza"
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Stop downloading"
+msgstr "Zastavit stahování"
+
+msgid "Studio"
+msgstr "Studio"
+
+msgid "Surname"
+msgstr "Příjmení"
+
+msgid "Table columns"
+msgstr "Sloupce v tabulce"
+
+msgid "Table name"
+msgstr "Jméno tabulky"
+
+msgid "Table of Contents"
+msgstr "Obsah knihy"
+
+msgid "Tables"
+msgstr "Tabulky"
+
+msgid "Tabs"
+msgstr "Vzhled karet"
+
+msgid "Tales"
+msgstr "Pohádky"
+
+msgid "Target directory"
+msgstr "Cílový adresář"
+
+msgid "Temporary folder:"
+msgstr "Adresář pro dočasné soubory:"
+
+msgid "The best"
+msgstr "Nejlepší"
+
+msgid "This function is not available yet in this version."
+msgstr "Tato funkce zatím není dostupná v této verzi."
+
+msgid "Thriller"
+msgstr "Thrillery"
+
+msgid "Title"
+msgstr "Kniha"
+
+msgid "Toolbar:"
+msgstr "Nástrojová lišta:"
+
+msgid "Total books count:"
+msgstr "Počet knih:"
+
+msgid "Total files size, Mb:"
+msgstr "Velikost souborů, Mb:"
+
+msgid "Total quantity"
+msgstr "Celkový počet"
+
+msgid "Transliterate filename"
+msgstr "Přepsat název souboru"
+
+msgid "Transliterate folder name"
+msgstr "Přepsat název adresáře"
+
+msgid "Travel and Geography"
+msgstr "Cestopisy"
+
+msgid "Unable write files to destination folder"
+msgstr "Cílový adresář je nedostupný pro zápis"
+
+msgid "Undo selection"
+msgstr "Zrušit označení"
+
+msgid "Unknown encoding: %s"
+msgstr "Neznámé kódování: %s"
+
+msgid "Up"
+msgstr "Nahoru"
+
+msgid "Update collection"
+msgstr "Aktualizovat obsah databáze"
+
+msgid "Upgrade database to version %d"
+msgstr "Aktualizovat databázi na verzi %d"
+
+msgid "URL error"
+msgstr "Chyba URL"
+
+msgid "Use a gray font for missing books"
+msgstr "Použít šedé písmo pro chybějící knihy"
+
+msgid "Use Author (without co-Authors)"
+msgstr "Použít aktuálního autora (bez spoluautorů)"
+
+msgid "Use filter"
+msgstr "Použít filtr"
+
+msgid "Use proxy-server"
+msgstr "Používat proxy-server"
+
+msgid "Use shell scripts for the export"
+msgstr "Použijte shell skriptů pro export"
+
+msgid "User name:"
+msgstr "Uživatelské jméno:"
+
+msgid "Website"
+msgstr "MyRuLib na webu"
+
+msgid "Western"
+msgstr "Western"
+
+msgid "Wine temp folder:"
+msgstr "Dočasný adresář pro soubory Wine:"
+
+msgid "Wrong MD5 sum"
+msgstr "Chyba kontrolního součtu MD5"
+
+msgid "Wrong update library type"
+msgstr "Chybný typ databáze"
+
+msgid "XML parsing error: '%s' at line %d"
+msgstr "Chyba čtení XML: '%s' na řádce %d"
+
+msgid "XML parsing error: '%s' at line %d file %s"
+msgstr "Chyba čtení XML: '%s' na řádce %d souboru %s"
+
+msgid "ZIP archives"
+msgstr "ZIP archívy"
+
+msgid "Zip read error %s"
+msgstr "Chyba čtení ZIP %s"
+
+msgid "Zoom In"
+msgstr "Zvětšit písmo"
+
+msgid "Zoom Out"
+msgstr "Zmenšit písmo"
+
+msgid "book"
+msgid_plural "books"
+msgstr[0] "kniha"
+msgstr[1] "knihy"
+msgstr[2] "knih"
