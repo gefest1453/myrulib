@@ -12,7 +12,7 @@ private:
 	DECLARE_CLASS(FbAuiNotebook)
 	DECLARE_EVENT_TABLE()
 };
-/*
+
 class WXDLLIMPEXP_AUI WxAuiDefaultTabArt : public wxAuiTabArt
 {
 
@@ -74,6 +74,13 @@ public:
                  const wxAuiNotebookPageArray& pages,
                  const wxSize& requiredBmpSize);
 
+    void DrawBorder(wxDC& dc,
+                    wxWindow* wnd,
+                    const wxRect& rect);
+
+    int GetBorderWidth(wxWindow* wnd);
+    int GetAdditionalBorderSpace(wxWindow* wnd);
+
 protected:
 
     wxFont m_normalFont;
@@ -98,7 +105,7 @@ protected:
     unsigned int m_flags;
 };
 
-*/
+
 class WXDLLIMPEXP_AUI WxAuiSimpleTabArt : public wxAuiTabArt
 {
 
@@ -161,6 +168,13 @@ public:
     int GetBestTabCtrlSize(wxWindow* wnd,
                  const wxAuiNotebookPageArray& pages,
                  const wxSize& requiredBmpSize);
+
+    void DrawBorder(wxDC& dc,
+                    wxWindow* wnd,
+                    const wxRect& rect);
+
+    int GetBorderWidth(wxWindow* wnd);
+    int GetAdditionalBorderSpace(wxWindow* wnd);
 
 protected:
 
