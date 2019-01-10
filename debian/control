@@ -1,8 +1,8 @@
 Source: myrulib
 Section: x11
 Priority: optional
-Maintainer: Kandrashin Denis <mail@lintest.ru>
-Build-Depends: debhelper (>= 7), libwxgtk2.8-dev (>=2.8.10), libxml2-dev, libsqlite3-dev, libwxsqlite3-2.8-dev, libicu-dev, libbz2-dev, libjpeg-dev, libpng-dev, libfreetype6-dev
+Maintainer: alexander terlecky <terlecky@list.ru>
+Build-Depends: debhelper (>= 7), libwxgtk3.0-dev (>=3.0.2), libxml2-dev, libsqlite3-dev, libwxsqlite3-3.0-dev, libicu-dev, libbz2-dev, libjpeg-dev, libpng-dev, libfreetype6-dev
 Standards-Version: 3.8.0
 Homepage: http://myrulib.lintest.ru
 
