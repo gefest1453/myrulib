@@ -117,7 +117,7 @@ FbLogStream::FbLogStream()
 {
 }
 
-void FbLogStream::DoLogString(const wxChar *szString, time_t t)
+void FbLogStream::DoLogString(const wxString szString, time_t t)
 {
 	m_stream.SeekO(0, wxFromEnd);
 

@@ -12,6 +12,7 @@
 #include <wx/mimetype.h>
 #include <wx/stdpaths.h>
 #include "wx/FbSQLite3.h"
+#include <wx/string.h>
 
 bool FbTempEraser::sm_erase = true;
 
@@ -240,7 +241,7 @@ public:
 
         for ( int i = 0; i < m_argc; i++ )
         {
-            wxWX2MBbuf arg = wxSafeConvertWX2MB(args[i]);
+            wxWX2MBbuf arg = wxSafeConvertWX2MB(args[i].wchar_str());
             m_argv[i] = strdup(arg);
         }
     }

@@ -603,7 +603,7 @@ void FbCollection::GetDown(wxArrayInt & items)
 		FbCollection * collection = GetCollection();
 		if (collection == NULL) return;
 		if (collection->m_downs) {
-			WX_APPEND_ARRAY(items, *(collection->m_downs))
+			WX_APPEND_ARRAY(items, *(collection->m_downs));
 			return;
 		}
 	}

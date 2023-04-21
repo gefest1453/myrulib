@@ -52,7 +52,7 @@ void FbFrameInfoThread::WriteTitle()
 {
 	m_html += wxT("<CENTER>");
 
-	const wxChar * title = _("Information about collection");
+	const wxString title = _("Information about collection");
 
 	m_html += wxT("<TABLE>");
 	m_html += wxString::Format(wxT("<TR><TD colspan=2 align=center>%s</TD></TR>"), title);
@@ -132,10 +132,10 @@ void FbFrameInfoThread::WriteTypes()
 	wxString colourBack = wxSystemSettings::GetColour(wxSYS_COLOUR_WINDOW).GetAsString(wxC2S_HTML_SYNTAX);
 	wxString colourGrid = wxSystemSettings::GetColour(wxSYS_COLOUR_BTNSHADOW).GetAsString(wxC2S_HTML_SYNTAX);
 
-	const wxChar * cell = wxT("<TD bgcolor=%s><B>%s</B></TD>");
-	const wxChar * msg1 = _("File extension");
-	const wxChar * msg2 = _("Count");
-	const wxChar * msg3 = _("Size, Kb");
+	const wxString cell = wxT("<TD bgcolor=%s><B>%s</B></TD>");
+	const wxString msg1 = _("File extension");
+	const wxString msg2 = _("Count");
+	const wxString msg3 = _("Size, Kb");
 
 	m_html += wxT("<BR><BR>");
 	m_html += wxString::Format(wxT("<TABLE border=0 cellspacing=0 cellpadding=0 bgcolor=%s><TR><TD>"), colourGrid.c_str());

@@ -115,7 +115,7 @@ FbParamsDlg::ScriptDlg::ScriptDlg( wxWindow* parent, wxWindowID id, const wxStri
 	: FbDialog(parent, id, title, pos, size, style)
 {
 	m_letters = wxT("fpnde");
-	const wxChar * helps[] = {
+	const wxString helps[] = {
 		_("Full file path with name and extension"),
 		_("Full file path without extension"),
 		_("File name without path and extension"),
@@ -486,7 +486,7 @@ FbParamsDlg::PanelExport::PanelExport(wxWindow *parent, wxString &letters)
 	bSizerMain->Add( combobox, 0, wxALL|wxEXPAND, 5 );
 
 	letters = wxT("afcsnitlme");
-	const wxChar * helps[] = {
+	const wxString helps[] = {
 		_("First letter of author name"),
 		_("Full author name"),
 		_("Short-cut author name"),
