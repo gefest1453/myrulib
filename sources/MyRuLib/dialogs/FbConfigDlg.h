@@ -54,7 +54,7 @@ class FbDirectoryDlg: public FbDialog
 		wxGridBagSizer * m_sizer;
 };
 
-class FbConfigDlg : private FbDialog
+class FbConfigDlg : public FbDialog
 {
 	public:
 		static bool Execute(wxWindow * parent);

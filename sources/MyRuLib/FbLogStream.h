@@ -37,7 +37,7 @@ class FbLogStream: public FbLog
 		FbLogStream();
 	protected:
 		virtual void DoLog(wxLogLevel level, const wxChar *szString, time_t t);
-		virtual void DoLogString(const wxChar *szString, time_t t);
+		virtual void DoLogString(const wxString szString, time_t t);
 	private:
 		wxFileOutputStream m_stream;
 		wxTextOutputStream m_text;

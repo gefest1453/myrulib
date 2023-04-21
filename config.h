@@ -136,7 +136,7 @@
 #define FB_INCLUDE_LINKS 1
 
 /* Define if used Cool Reader Engine. */
-#define FB_INCLUDE_READER 1
+/* #undef FB_INCLUDE_READER */
 
 /* Define if include locale files into executable. */
 /* #undef FB_INCLUDE_LOCALE */

@@ -6,6 +6,9 @@
 #include <wx/zipstrm.h>
 #include "FbDatabase.h"
 #include "FbSmartPtr.h"
+#include <wx/arrstr.h>
+
+
 
 class FbTempEraser
 {
@@ -15,7 +18,7 @@ public:
 private:
 	FbTempEraser() {}
 	virtual ~FbTempEraser();
-	wxStringList m_filelist;
+	wxArrayString m_filelist;
 };
 
 class FbZipInputStream : public wxZipInputStream

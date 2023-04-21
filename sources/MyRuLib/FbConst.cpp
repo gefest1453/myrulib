@@ -46,7 +46,7 @@ const wxString strRusJO = (wxChar)0x0416;
 
 wxString GetRatingText(int index)
 {
-	const wxChar * text[] = {
+	const wxString text[] = {
 		_("Clear"),
 		wxT("*"),
 		wxT("* *"),
